@@ -11,6 +11,7 @@ import {
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import Lenis from "lenis";
+import "lenis/dist/lenis.css";
 
 import HomePageSections from "./HomePageSections";
 
@@ -30,24 +31,26 @@ function HomePage() {
   const introRef = useRef(null);
 
   useEffect(() => {
-    const reducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+    const heroImage = heroImageRef.current;
+    const motionPreference = window.matchMedia("(prefers-reduced-motion: reduce)");
+    const heroMotion = gsap.matchMedia();
+    const reducedMotion = motionPreference.matches;
     let active = true;
     const lenis = new Lenis({
       duration: 1.15,
       smoothWheel: !reducedMotion,
       wheelMultiplier: 0.9,
+      autoRaf: false,
+      anchors: true,
     });
 
-    let animationFrame;
-
-    const update = (time) => {
-      lenis.raf(time);
-      animationFrame = requestAnimationFrame(update);
-    };
-
-    animationFrame = requestAnimationFrame(update);
-
+    // One clock for Lenis and every scroll-driven scene on the home page.
+    const update = (time) => lenis.raf(time * 1000);
+    gsap.ticker.add(update);
+    gsap.ticker.lagSmoothing(0);
     lenis.on("scroll", ScrollTrigger.update);
+    const updatePreference = () => { lenis.options.smoothWheel = !motionPreference.matches; };
+    motionPreference.addEventListener("change", updatePreference);
 
     const context = gsap.context(() => {
       if (reducedMotion) {
@@ -150,7 +153,10 @@ function HomePage() {
         if (active) timeline.play();
       });
 
-      gsap.to(heroImageRef.current, {
+    }, pageRef);
+
+    heroMotion.add("(prefers-reduced-motion: no-preference)", () => {
+      gsap.to(heroImage, {
         scale: 1.15,
         yPercent: 8,
         ease: "none",
@@ -176,7 +182,7 @@ function HomePage() {
     }, pageRef);
 
     const handlePointerMove = (event) => {
-      if (reducedMotion || window.innerWidth < 900) return;
+      if (motionPreference.matches || window.innerWidth < 900 || window.scrollY > window.innerHeight) return;
 
       const x = event.clientX / window.innerWidth - 0.5;
       const y = event.clientY / window.innerHeight - 0.5;
@@ -193,9 +199,13 @@ function HomePage() {
 
     return () => {
       active = false;
+      heroMotion.revert();
       context.revert();
       lenis.destroy();
-      cancelAnimationFrame(animationFrame);
+      gsap.ticker.remove(update);
+      gsap.ticker.lagSmoothing(500, 33);
+      gsap.killTweensOf(heroImage);
+      motionPreference.removeEventListener("change", updatePreference);
       window.removeEventListener("pointermove", handlePointerMove);
     };
   }, []);
