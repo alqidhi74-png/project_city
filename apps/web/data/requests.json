@@ -1,0 +1,632 @@
+[
+  {
+    "id": "REQ-2026-1043",
+    "districtId": "waha",
+    "service": {
+      "ar": "طلب رخصة بناء",
+      "en": "Building permit application"
+    },
+    "category": "permits",
+    "categoryLabel": {
+      "ar": "تراخيص البناء",
+      "en": "Building permits"
+    },
+    "status": "open",
+    "priority": "high",
+    "submittedAt": "2026-09-21",
+    "applicant": {
+      "ar": "خالد الكندي",
+      "en": "Khalid Al Kindi"
+    },
+    "year": 2026
+  },
+  {
+    "id": "REQ-2026-1246",
+    "districtId": "nahda",
+    "service": {
+      "ar": "تشجير حديقة",
+      "en": "Park landscaping"
+    },
+    "category": "environment",
+    "categoryLabel": {
+      "ar": "البيئة",
+      "en": "Environment"
+    },
+    "status": "in-progress",
+    "priority": "medium",
+    "submittedAt": "2026-09-12",
+    "applicant": {
+      "ar": "ريم الرواحي",
+      "en": "Reem Al Rawahi"
+    },
+    "year": 2026
+  },
+  {
+    "id": "REQ-2026-1232",
+    "districtId": "nahda",
+    "service": {
+      "ar": "إصلاح حفرة",
+      "en": "Pothole repair"
+    },
+    "category": "maintenance",
+    "categoryLabel": {
+      "ar": "الصيانة",
+      "en": "Maintenance"
+    },
+    "status": "resolved",
+    "priority": "high",
+    "submittedAt": "2026-09-10",
+    "applicant": {
+      "ar": "مريم الشكيلي",
+      "en": "Maryam Al Shukaili"
+    },
+    "year": 2026
+  },
+  {
+    "id": "REQ-2026-1218",
+    "districtId": "nahda",
+    "service": {
+      "ar": "طلب رخصة بناء",
+      "en": "Building permit application"
+    },
+    "category": "permits",
+    "categoryLabel": {
+      "ar": "تراخيص البناء",
+      "en": "Building permits"
+    },
+    "status": "in-progress",
+    "priority": "medium",
+    "submittedAt": "2026-09-10",
+    "applicant": {
+      "ar": "بدر البلوشي",
+      "en": "Badr Al Balushi"
+    },
+    "year": 2026
+  },
+  {
+    "id": "REQ-2026-1141",
+    "districtId": "nahda",
+    "service": {
+      "ar": "إشارة مرورية",
+      "en": "Traffic signal request"
+    },
+    "category": "transport",
+    "categoryLabel": {
+      "ar": "النقل",
+      "en": "Transport"
+    },
+    "status": "open",
+    "priority": "high",
+    "submittedAt": "2026-09-09",
+    "applicant": {
+      "ar": "أحمد البلوشي",
+      "en": "Ahmed Al Balushi"
+    },
+    "year": 2026
+  },
+  {
+    "id": "REQ-2026-1099",
+    "districtId": "waha",
+    "service": {
+      "ar": "إصلاح حفرة",
+      "en": "Pothole repair"
+    },
+    "category": "maintenance",
+    "categoryLabel": {
+      "ar": "الصيانة",
+      "en": "Maintenance"
+    },
+    "status": "in-progress",
+    "priority": "high",
+    "submittedAt": "2026-09-09",
+    "applicant": {
+      "ar": "هدى الرواحي",
+      "en": "Huda Al Rawahi"
+    },
+    "year": 2026
+  },
+  {
+    "id": "REQ-2026-1204",
+    "districtId": "rimal",
+    "service": {
+      "ar": "مسار حافلة",
+      "en": "Bus route request"
+    },
+    "category": "transport",
+    "categoryLabel": {
+      "ar": "النقل",
+      "en": "Transport"
+    },
+    "status": "open",
+    "priority": "medium",
+    "submittedAt": "2026-09-08",
+    "applicant": {
+      "ar": "سالم الحارثي",
+      "en": "Salim Al Harthy"
+    },
+    "year": 2026
+  },
+  {
+    "id": "REQ-2026-1176",
+    "districtId": "nahda",
+    "service": {
+      "ar": "شكوى ضوضاء",
+      "en": "Noise complaint"
+    },
+    "category": "environment",
+    "categoryLabel": {
+      "ar": "البيئة",
+      "en": "Environment"
+    },
+    "status": "resolved",
+    "priority": "medium",
+    "submittedAt": "2026-09-07",
+    "applicant": {
+      "ar": "عائشة الشكيلي",
+      "en": "Aisha Al Shukaili"
+    },
+    "year": 2026
+  },
+  {
+    "id": "REQ-2026-1127",
+    "districtId": "nahda",
+    "service": {
+      "ar": "تسرب في الشبكة",
+      "en": "Network leak report"
+    },
+    "category": "utilities",
+    "categoryLabel": {
+      "ar": "الخدمات والمرافق",
+      "en": "Utilities"
+    },
+    "status": "open",
+    "priority": "medium",
+    "submittedAt": "2026-09-06",
+    "applicant": {
+      "ar": "أحمد السيابي",
+      "en": "Ahmed Al Siyabi"
+    },
+    "year": 2026
+  },
+  {
+    "id": "REQ-2026-1071",
+    "districtId": "waha",
+    "service": {
+      "ar": "إصلاح حفرة",
+      "en": "Pothole repair"
+    },
+    "category": "maintenance",
+    "categoryLabel": {
+      "ar": "الصيانة",
+      "en": "Maintenance"
+    },
+    "status": "in-progress",
+    "priority": "high",
+    "submittedAt": "2026-09-06",
+    "applicant": {
+      "ar": "فاطمة الحارثي",
+      "en": "Fatma Al Harthy"
+    },
+    "year": 2026
+  },
+  {
+    "id": "REQ-2026-1225",
+    "districtId": "rimal",
+    "service": {
+      "ar": "شهادة إتمام",
+      "en": "Completion certificate"
+    },
+    "category": "permits",
+    "categoryLabel": {
+      "ar": "تراخيص البناء",
+      "en": "Building permits"
+    },
+    "status": "in-progress",
+    "priority": "low",
+    "submittedAt": "2026-09-04",
+    "applicant": {
+      "ar": "مريم الكندي",
+      "en": "Maryam Al Kindi"
+    },
+    "year": 2026
+  },
+  {
+    "id": "REQ-2026-1113",
+    "districtId": "waha",
+    "service": {
+      "ar": "جمع نفايات",
+      "en": "Waste collection"
+    },
+    "category": "environment",
+    "categoryLabel": {
+      "ar": "البيئة",
+      "en": "Environment"
+    },
+    "status": "resolved",
+    "priority": "medium",
+    "submittedAt": "2026-09-04",
+    "applicant": {
+      "ar": "ريم السيابي",
+      "en": "Reem Al Siyabi"
+    },
+    "year": 2026
+  },
+  {
+    "id": "REQ-2026-1183",
+    "districtId": "waha",
+    "service": {
+      "ar": "طلب موقف",
+      "en": "Parking permit"
+    },
+    "category": "transport",
+    "categoryLabel": {
+      "ar": "النقل",
+      "en": "Transport"
+    },
+    "status": "open",
+    "priority": "medium",
+    "submittedAt": "2026-09-01",
+    "applicant": {
+      "ar": "مريم الهنائي",
+      "en": "Maryam Al Hinai"
+    },
+    "year": 2026
+  },
+  {
+    "id": "REQ-2026-1197",
+    "districtId": "rimal",
+    "service": {
+      "ar": "توصيل مياه",
+      "en": "Water connection"
+    },
+    "category": "utilities",
+    "categoryLabel": {
+      "ar": "الخدمات والمرافق",
+      "en": "Utilities"
+    },
+    "status": "resolved",
+    "priority": "low",
+    "submittedAt": "2026-08-28",
+    "applicant": {
+      "ar": "ريم الشكيلي",
+      "en": "Reem Al Shukaili"
+    },
+    "year": 2026
+  },
+  {
+    "id": "REQ-2026-1057",
+    "districtId": "waha",
+    "service": {
+      "ar": "طلب موقف",
+      "en": "Parking permit"
+    },
+    "category": "transport",
+    "categoryLabel": {
+      "ar": "النقل",
+      "en": "Transport"
+    },
+    "status": "in-progress",
+    "priority": "low",
+    "submittedAt": "2026-08-22",
+    "applicant": {
+      "ar": "مريم المعمري",
+      "en": "Maryam Al Maamari"
+    },
+    "year": 2026
+  },
+  {
+    "id": "REQ-2026-1190",
+    "districtId": "nahda",
+    "service": {
+      "ar": "طلب رخصة بناء",
+      "en": "Building permit application"
+    },
+    "category": "permits",
+    "categoryLabel": {
+      "ar": "تراخيص البناء",
+      "en": "Building permits"
+    },
+    "status": "in-progress",
+    "priority": "high",
+    "submittedAt": "2026-08-21",
+    "applicant": {
+      "ar": "ريم الشكيلي",
+      "en": "Reem Al Shukaili"
+    },
+    "year": 2026
+  },
+  {
+    "id": "REQ-2026-1092",
+    "districtId": "waha",
+    "service": {
+      "ar": "إشارة مرورية",
+      "en": "Traffic signal request"
+    },
+    "category": "transport",
+    "categoryLabel": {
+      "ar": "النقل",
+      "en": "Transport"
+    },
+    "status": "resolved",
+    "priority": "medium",
+    "submittedAt": "2026-08-21",
+    "applicant": {
+      "ar": "بدر المعمري",
+      "en": "Badr Al Maamari"
+    },
+    "year": 2026
+  },
+  {
+    "id": "REQ-2026-1085",
+    "districtId": "rimal",
+    "service": {
+      "ar": "طلب موقف",
+      "en": "Parking permit"
+    },
+    "category": "transport",
+    "categoryLabel": {
+      "ar": "النقل",
+      "en": "Transport"
+    },
+    "status": "in-progress",
+    "priority": "high",
+    "submittedAt": "2026-08-15",
+    "applicant": {
+      "ar": "نورة السيابي",
+      "en": "Noura Al Siyabi"
+    },
+    "year": 2026
+  },
+  {
+    "id": "REQ-2026-1162",
+    "districtId": "waha",
+    "service": {
+      "ar": "جمع نفايات",
+      "en": "Waste collection"
+    },
+    "category": "environment",
+    "categoryLabel": {
+      "ar": "البيئة",
+      "en": "Environment"
+    },
+    "status": "in-progress",
+    "priority": "medium",
+    "submittedAt": "2026-08-13",
+    "applicant": {
+      "ar": "مريم البلوشي",
+      "en": "Maryam Al Balushi"
+    },
+    "year": 2026
+  },
+  {
+    "id": "REQ-2026-1134",
+    "districtId": "rimal",
+    "service": {
+      "ar": "تشجير حديقة",
+      "en": "Park landscaping"
+    },
+    "category": "environment",
+    "categoryLabel": {
+      "ar": "البيئة",
+      "en": "Environment"
+    },
+    "status": "resolved",
+    "priority": "medium",
+    "submittedAt": "2026-08-12",
+    "applicant": {
+      "ar": "مريم الرواحي",
+      "en": "Maryam Al Rawahi"
+    },
+    "year": 2026
+  },
+  {
+    "id": "REQ-2026-1155",
+    "districtId": "rimal",
+    "service": {
+      "ar": "طلب رخصة بناء",
+      "en": "Building permit application"
+    },
+    "category": "permits",
+    "categoryLabel": {
+      "ar": "تراخيص البناء",
+      "en": "Building permits"
+    },
+    "status": "open",
+    "priority": "low",
+    "submittedAt": "2026-08-10",
+    "applicant": {
+      "ar": "فاطمة البلوشي",
+      "en": "Fatma Al Balushi"
+    },
+    "year": 2026
+  },
+  {
+    "id": "REQ-2026-1239",
+    "districtId": "waha",
+    "service": {
+      "ar": "إصلاح إنارة شارع",
+      "en": "Street light repair"
+    },
+    "category": "maintenance",
+    "categoryLabel": {
+      "ar": "الصيانة",
+      "en": "Maintenance"
+    },
+    "status": "in-progress",
+    "priority": "high",
+    "submittedAt": "2026-08-08",
+    "applicant": {
+      "ar": "عائشة الشكيلي",
+      "en": "Aisha Al Shukaili"
+    },
+    "year": 2026
+  },
+  {
+    "id": "REQ-2026-1211",
+    "districtId": "waha",
+    "service": {
+      "ar": "توصيل مياه",
+      "en": "Water connection"
+    },
+    "category": "utilities",
+    "categoryLabel": {
+      "ar": "الخدمات والمرافق",
+      "en": "Utilities"
+    },
+    "status": "in-progress",
+    "priority": "medium",
+    "submittedAt": "2026-08-04",
+    "applicant": {
+      "ar": "نورة الهنائي",
+      "en": "Noura Al Hinai"
+    },
+    "year": 2026
+  },
+  {
+    "id": "REQ-2026-1050",
+    "districtId": "rimal",
+    "service": {
+      "ar": "إصلاح إنارة شارع",
+      "en": "Street light repair"
+    },
+    "category": "maintenance",
+    "categoryLabel": {
+      "ar": "الصيانة",
+      "en": "Maintenance"
+    },
+    "status": "resolved",
+    "priority": "low",
+    "submittedAt": "2026-07-23",
+    "applicant": {
+      "ar": "بدر الشكيلي",
+      "en": "Badr Al Shukaili"
+    },
+    "year": 2026
+  },
+  {
+    "id": "REQ-2026-1169",
+    "districtId": "nahda",
+    "service": {
+      "ar": "شكوى ضوضاء",
+      "en": "Noise complaint"
+    },
+    "category": "environment",
+    "categoryLabel": {
+      "ar": "البيئة",
+      "en": "Environment"
+    },
+    "status": "resolved",
+    "priority": "medium",
+    "submittedAt": "2026-07-22",
+    "applicant": {
+      "ar": "هدى الهنائي",
+      "en": "Huda Al Hinai"
+    },
+    "year": 2026
+  },
+  {
+    "id": "REQ-2026-1148",
+    "districtId": "rimal",
+    "service": {
+      "ar": "إصلاح حفرة",
+      "en": "Pothole repair"
+    },
+    "category": "maintenance",
+    "categoryLabel": {
+      "ar": "الصيانة",
+      "en": "Maintenance"
+    },
+    "status": "in-progress",
+    "priority": "high",
+    "submittedAt": "2026-07-17",
+    "applicant": {
+      "ar": "أحمد الرواحي",
+      "en": "Ahmed Al Rawahi"
+    },
+    "year": 2026
+  },
+  {
+    "id": "REQ-2026-1064",
+    "districtId": "waha",
+    "service": {
+      "ar": "إصلاح إنارة شارع",
+      "en": "Street light repair"
+    },
+    "category": "maintenance",
+    "categoryLabel": {
+      "ar": "الصيانة",
+      "en": "Maintenance"
+    },
+    "status": "open",
+    "priority": "medium",
+    "submittedAt": "2026-07-08",
+    "applicant": {
+      "ar": "أحمد البلوشي",
+      "en": "Ahmed Al Balushi"
+    },
+    "year": 2026
+  },
+  {
+    "id": "REQ-2026-1078",
+    "districtId": "rimal",
+    "service": {
+      "ar": "إصلاح حفرة",
+      "en": "Pothole repair"
+    },
+    "category": "maintenance",
+    "categoryLabel": {
+      "ar": "الصيانة",
+      "en": "Maintenance"
+    },
+    "status": "open",
+    "priority": "low",
+    "submittedAt": "2026-07-07",
+    "applicant": {
+      "ar": "هدى الشكيلي",
+      "en": "Huda Al Shukaili"
+    },
+    "year": 2026
+  },
+  {
+    "id": "REQ-2026-1106",
+    "districtId": "rimal",
+    "service": {
+      "ar": "طلب رخصة بناء",
+      "en": "Building permit application"
+    },
+    "category": "permits",
+    "categoryLabel": {
+      "ar": "تراخيص البناء",
+      "en": "Building permits"
+    },
+    "status": "resolved",
+    "priority": "low",
+    "submittedAt": "2026-07-01",
+    "applicant": {
+      "ar": "ماجد البلوشي",
+      "en": "Majid Al Balushi"
+    },
+    "year": 2026
+  },
+  {
+    "id": "REQ-2026-1120",
+    "districtId": "waha",
+    "service": {
+      "ar": "صيانة رصيف",
+      "en": "Pavement repair"
+    },
+    "category": "maintenance",
+    "categoryLabel": {
+      "ar": "الصيانة",
+      "en": "Maintenance"
+    },
+    "status": "open",
+    "priority": "medium",
+    "submittedAt": "2026-06-27",
+    "applicant": {
+      "ar": "خالد الشكيلي",
+      "en": "Khalid Al Shukaili"
+    },
+    "year": 2026
+  }
+]

@@ -1,0 +1,596 @@
+[
+  {
+    "id": "waha",
+    "name": {
+      "ar": "حي الواحة",
+      "en": "Al Waha District"
+    },
+    "svgPath": "M70,60 L330,45 L360,180 L250,250 L90,215 Z",
+    "centroid": [
+      212,
+      142
+    ],
+    "establishedYear": 2024,
+    "byYear": {
+      "2024": {
+        "population": 7160,
+        "energy": 28,
+        "water": 565.2,
+        "air": 67,
+        "requests": 91
+      },
+      "2025": {
+        "population": 10951,
+        "energy": 45,
+        "water": 878.1,
+        "air": 72,
+        "requests": 146
+      },
+      "2026": {
+        "population": 15790,
+        "energy": 60,
+        "water": 1301.9,
+        "air": 76,
+        "requests": 206
+      },
+      "2027": {
+        "population": 21179,
+        "energy": 80,
+        "water": 1670.9,
+        "air": 80,
+        "requests": 280
+      },
+      "2028": {
+        "population": 27474,
+        "energy": 103,
+        "water": 2031.9,
+        "air": 79,
+        "requests": 366
+      },
+      "2029": {
+        "population": 33729,
+        "energy": 132,
+        "water": 2487.2,
+        "air": 82,
+        "requests": 441
+      },
+      "2030": {
+        "population": 38062,
+        "energy": 146,
+        "water": 2769,
+        "air": 83,
+        "requests": 495
+      },
+      "2031": {
+        "population": 39687,
+        "energy": 146,
+        "water": 2981.3,
+        "air": 82,
+        "requests": 482
+      },
+      "2032": {
+        "population": 41787,
+        "energy": 156,
+        "water": 3125.4,
+        "air": 82,
+        "requests": 536
+      },
+      "2033": {
+        "population": 43822,
+        "energy": 155,
+        "water": 3130.7,
+        "air": 82,
+        "requests": 562
+      },
+      "2034": {
+        "population": 44692,
+        "energy": 162,
+        "water": 3067.8,
+        "air": 84,
+        "requests": 564
+      },
+      "2035": {
+        "population": 44253,
+        "energy": 152,
+        "water": 3124.5,
+        "air": 84,
+        "requests": 516
+      }
+    }
+  },
+  {
+    "id": "rimal",
+    "name": {
+      "ar": "حي الرمال",
+      "en": "Al Rimal District"
+    },
+    "svgPath": "M330,45 L620,70 L700,190 L520,245 L360,180 Z",
+    "centroid": [
+      505,
+      148
+    ],
+    "establishedYear": 2024,
+    "byYear": {
+      "2024": {
+        "population": 8374,
+        "energy": 38,
+        "water": 762.6,
+        "air": 60,
+        "requests": 114
+      },
+      "2025": {
+        "population": 12637,
+        "energy": 58,
+        "water": 1163.7,
+        "air": 63,
+        "requests": 192
+      },
+      "2026": {
+        "population": 17536,
+        "energy": 79,
+        "water": 1537.7,
+        "air": 68,
+        "requests": 265
+      },
+      "2027": {
+        "population": 24628,
+        "energy": 104,
+        "water": 2187.2,
+        "air": 72,
+        "requests": 347
+      },
+      "2028": {
+        "population": 32006,
+        "energy": 139,
+        "water": 2737.5,
+        "air": 73,
+        "requests": 424
+      },
+      "2029": {
+        "population": 37940,
+        "energy": 158,
+        "water": 3260.3,
+        "air": 75,
+        "requests": 540
+      },
+      "2030": {
+        "population": 43113,
+        "energy": 180,
+        "water": 3604.5,
+        "air": 75,
+        "requests": 648
+      },
+      "2031": {
+        "population": 45028,
+        "energy": 192,
+        "water": 3557.3,
+        "air": 75,
+        "requests": 655
+      },
+      "2032": {
+        "population": 49052,
+        "energy": 205,
+        "water": 3845.5,
+        "air": 75,
+        "requests": 728
+      },
+      "2033": {
+        "population": 49232,
+        "energy": 199,
+        "water": 3922.8,
+        "air": 76,
+        "requests": 741
+      },
+      "2034": {
+        "population": 49186,
+        "energy": 188,
+        "water": 3773.6,
+        "air": 78,
+        "requests": 686
+      },
+      "2035": {
+        "population": 50561,
+        "energy": 192,
+        "water": 3784,
+        "air": 77,
+        "requests": 754
+      }
+    }
+  },
+  {
+    "id": "nahda",
+    "name": {
+      "ar": "حي النهضة",
+      "en": "Al Nahda District"
+    },
+    "svgPath": "M90,215 L250,250 L300,400 L150,450 L55,330 Z",
+    "centroid": [
+      172,
+      325
+    ],
+    "establishedYear": 2026,
+    "byYear": {
+      "2024": {
+        "population": 0,
+        "energy": 0,
+        "water": 0,
+        "air": 0,
+        "requests": 0
+      },
+      "2025": {
+        "population": 0,
+        "energy": 0,
+        "water": 0,
+        "air": 0,
+        "requests": 0
+      },
+      "2026": {
+        "population": 5819,
+        "energy": 21,
+        "water": 431,
+        "air": 71,
+        "requests": 63
+      },
+      "2027": {
+        "population": 8954,
+        "energy": 33,
+        "water": 643.9,
+        "air": 75,
+        "requests": 99
+      },
+      "2028": {
+        "population": 12910,
+        "energy": 46,
+        "water": 901.6,
+        "air": 82,
+        "requests": 140
+      },
+      "2029": {
+        "population": 17992,
+        "energy": 62,
+        "water": 1221.1,
+        "air": 84,
+        "requests": 186
+      },
+      "2030": {
+        "population": 23214,
+        "energy": 83,
+        "water": 1613.2,
+        "air": 87,
+        "requests": 268
+      },
+      "2031": {
+        "population": 27475,
+        "energy": 96,
+        "water": 1916.2,
+        "air": 85,
+        "requests": 295
+      },
+      "2032": {
+        "population": 30166,
+        "energy": 97,
+        "water": 2046,
+        "air": 88,
+        "requests": 348
+      },
+      "2033": {
+        "population": 33793,
+        "energy": 107,
+        "water": 2236.9,
+        "air": 85,
+        "requests": 363
+      },
+      "2034": {
+        "population": 35241,
+        "energy": 118,
+        "water": 2200.8,
+        "air": 89,
+        "requests": 402
+      },
+      "2035": {
+        "population": 35958,
+        "energy": 116,
+        "water": 2325.9,
+        "air": 88,
+        "requests": 413
+      }
+    }
+  },
+  {
+    "id": "sidra",
+    "name": {
+      "ar": "حي السدرة",
+      "en": "Al Sidra District"
+    },
+    "svgPath": "M360,180 L520,245 L700,190 L730,360 L560,430 L400,370 Z",
+    "centroid": [
+      545,
+      302
+    ],
+    "establishedYear": 2028,
+    "byYear": {
+      "2024": {
+        "population": 0,
+        "energy": 0,
+        "water": 0,
+        "air": 0,
+        "requests": 0
+      },
+      "2025": {
+        "population": 0,
+        "energy": 0,
+        "water": 0,
+        "air": 0,
+        "requests": 0
+      },
+      "2026": {
+        "population": 0,
+        "energy": 0,
+        "water": 0,
+        "air": 0,
+        "requests": 0
+      },
+      "2027": {
+        "population": 0,
+        "energy": 0,
+        "water": 0,
+        "air": 0,
+        "requests": 0
+      },
+      "2028": {
+        "population": 9744,
+        "energy": 40,
+        "water": 815,
+        "air": 67,
+        "requests": 131
+      },
+      "2029": {
+        "population": 15001,
+        "energy": 60,
+        "water": 1196.2,
+        "air": 68,
+        "requests": 198
+      },
+      "2030": {
+        "population": 21431,
+        "energy": 85,
+        "water": 1705.2,
+        "air": 75,
+        "requests": 289
+      },
+      "2031": {
+        "population": 29500,
+        "energy": 117,
+        "water": 2386.1,
+        "air": 79,
+        "requests": 390
+      },
+      "2032": {
+        "population": 37549,
+        "energy": 139,
+        "water": 2996.5,
+        "air": 79,
+        "requests": 501
+      },
+      "2033": {
+        "population": 45110,
+        "energy": 170,
+        "water": 3328.8,
+        "air": 77,
+        "requests": 565
+      },
+      "2034": {
+        "population": 50036,
+        "energy": 188,
+        "water": 3782,
+        "air": 80,
+        "requests": 659
+      },
+      "2035": {
+        "population": 52467,
+        "energy": 183,
+        "water": 3771.4,
+        "air": 80,
+        "requests": 673
+      }
+    }
+  },
+  {
+    "id": "fanar",
+    "name": {
+      "ar": "حي الفنار",
+      "en": "Al Fanar District"
+    },
+    "svgPath": "M150,450 L300,400 L420,500 L330,560 L160,545 Z",
+    "centroid": [
+      268,
+      487
+    ],
+    "establishedYear": 2031,
+    "byYear": {
+      "2024": {
+        "population": 0,
+        "energy": 0,
+        "water": 0,
+        "air": 0,
+        "requests": 0
+      },
+      "2025": {
+        "population": 0,
+        "energy": 0,
+        "water": 0,
+        "air": 0,
+        "requests": 0
+      },
+      "2026": {
+        "population": 0,
+        "energy": 0,
+        "water": 0,
+        "air": 0,
+        "requests": 0
+      },
+      "2027": {
+        "population": 0,
+        "energy": 0,
+        "water": 0,
+        "air": 0,
+        "requests": 0
+      },
+      "2028": {
+        "population": 0,
+        "energy": 0,
+        "water": 0,
+        "air": 0,
+        "requests": 0
+      },
+      "2029": {
+        "population": 0,
+        "energy": 0,
+        "water": 0,
+        "air": 0,
+        "requests": 0
+      },
+      "2030": {
+        "population": 0,
+        "energy": 0,
+        "water": 0,
+        "air": 0,
+        "requests": 0
+      },
+      "2031": {
+        "population": 4547,
+        "energy": 14,
+        "water": 271.1,
+        "air": 79,
+        "requests": 42
+      },
+      "2032": {
+        "population": 7036,
+        "energy": 22,
+        "water": 417,
+        "air": 82,
+        "requests": 68
+      },
+      "2033": {
+        "population": 10296,
+        "energy": 29,
+        "water": 606.8,
+        "air": 89,
+        "requests": 92
+      },
+      "2034": {
+        "population": 13699,
+        "energy": 40,
+        "water": 806.8,
+        "air": 93,
+        "requests": 124
+      },
+      "2035": {
+        "population": 17289,
+        "energy": 48,
+        "water": 983.6,
+        "air": 91,
+        "requests": 173
+      }
+    }
+  },
+  {
+    "id": "marjan",
+    "name": {
+      "ar": "حي المرجان",
+      "en": "Al Marjan District"
+    },
+    "svgPath": "M420,500 L560,430 L730,360 L745,520 L600,570 Z",
+    "centroid": [
+      612,
+      478
+    ],
+    "establishedYear": 2033,
+    "byYear": {
+      "2024": {
+        "population": 0,
+        "energy": 0,
+        "water": 0,
+        "air": 0,
+        "requests": 0
+      },
+      "2025": {
+        "population": 0,
+        "energy": 0,
+        "water": 0,
+        "air": 0,
+        "requests": 0
+      },
+      "2026": {
+        "population": 0,
+        "energy": 0,
+        "water": 0,
+        "air": 0,
+        "requests": 0
+      },
+      "2027": {
+        "population": 0,
+        "energy": 0,
+        "water": 0,
+        "air": 0,
+        "requests": 0
+      },
+      "2028": {
+        "population": 0,
+        "energy": 0,
+        "water": 0,
+        "air": 0,
+        "requests": 0
+      },
+      "2029": {
+        "population": 0,
+        "energy": 0,
+        "water": 0,
+        "air": 0,
+        "requests": 0
+      },
+      "2030": {
+        "population": 0,
+        "energy": 0,
+        "water": 0,
+        "air": 0,
+        "requests": 0
+      },
+      "2031": {
+        "population": 0,
+        "energy": 0,
+        "water": 0,
+        "air": 0,
+        "requests": 0
+      },
+      "2032": {
+        "population": 0,
+        "energy": 0,
+        "water": 0,
+        "air": 0,
+        "requests": 0
+      },
+      "2033": {
+        "population": 5422,
+        "energy": 15,
+        "water": 295,
+        "air": 82,
+        "requests": 49
+      },
+      "2034": {
+        "population": 8278,
+        "energy": 22,
+        "water": 448.1,
+        "air": 85,
+        "requests": 74
+      },
+      "2035": {
+        "population": 12088,
+        "energy": 33,
+        "water": 629.5,
+        "air": 90,
+        "requests": 104
+      }
+    }
+  }
+]

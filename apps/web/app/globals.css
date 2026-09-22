@@ -1,0 +1,159 @@
+@import 'tailwindcss';
+
+/* Day/night is driven by a `dark` class on <html>, set by ThemeProvider. */
+@custom-variant dark (&:where(.dark, .dark *));
+
+/* ---------------------------------------------------------------------------
+   Brand palette — Sultan Haitham City.
+   These are the literal brand hex values and are used for UI chrome: the
+   sidebar, buttons, headings, badges and the map base. Chart *series* colours
+   are NOT these values — see lib/theme.ts for why.
+--------------------------------------------------------------------------- */
+@theme {
+  --color-velvet: #49111d;
+  --color-evergreen: #3d4e1e;
+  --color-city-emerald: #143534;
+  --color-vermilion: #f8633e;
+  --color-orchid: #ac6492;
+  --color-sunburst: #f1bb4d;
+  --color-gold-light: #f9edb8;
+  --color-gold-dark: #b39157;
+
+  --font-sans: var(--font-app-sans), ui-sans-serif, system-ui, 'Segoe UI', sans-serif;
+
+  --radius-card: 1rem;
+}
+
+/* Semantic surfaces flip between day and night. */
+@theme inline {
+  --color-surface: var(--surface);
+  --color-surface-raised: var(--surface-raised);
+  --color-surface-sunken: var(--surface-sunken);
+  --color-hairline: var(--hairline);
+  --color-ink: var(--ink);
+  --color-ink-muted: var(--ink-muted);
+  --color-ink-subtle: var(--ink-subtle);
+}
+
+:root {
+  color-scheme: light;
+  --surface: #f6f6f2;
+  --surface-raised: #fcfcfb;
+  --surface-sunken: #ecece5;
+  --hairline: #dcdcd2;
+  --ink: #1b2220;
+  --ink-muted: #4d5754;
+  --ink-subtle: #77807d;
+}
+
+.dark {
+  color-scheme: dark;
+  --surface: #0b1716;
+  --surface-raised: #0f1f1e;
+  --surface-sunken: #081110;
+  --hairline: #1e332f;
+  --ink: #eef3f1;
+  --ink-muted: #a8b8b4;
+  --ink-subtle: #758783;
+}
+
+@layer base {
+  * {
+    border-color: var(--hairline);
+  }
+
+  body {
+    background-color: var(--surface);
+    color: var(--ink);
+    font-family: var(--font-sans);
+    -webkit-font-smoothing: antialiased;
+  }
+
+  /* Arabic sits better with slightly looser leading. */
+  [dir='rtl'] body {
+    line-height: 1.75;
+  }
+
+  :focus-visible {
+    outline: 2px solid var(--color-sunburst);
+    outline-offset: 2px;
+  }
+}
+
+@layer utilities {
+  .bg-gold-gradient {
+    background-image: linear-gradient(135deg, var(--color-gold-light), var(--color-gold-dark));
+  }
+
+  .text-gold-gradient {
+    background-image: linear-gradient(135deg, var(--color-gold-light), var(--color-gold-dark));
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+  }
+
+  /* Numeric columns and chart axes read better with tabular figures. */
+  .tnum {
+    font-variant-numeric: tabular-nums;
+  }
+
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+  .no-scrollbar {
+    scrollbar-width: none;
+  }
+}
+
+/* ---------------------------------------------------------------------------
+   Reduced motion. lib/motion.ts already gates every JS-driven animation; this
+   is the CSS backstop for transitions and keyframes we declare in stylesheets.
+--------------------------------------------------------------------------- */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+@keyframes pulse-ring {
+  0% {
+    opacity: 0.55;
+    transform: scale(1);
+  }
+  70% {
+    opacity: 0;
+    transform: scale(1.9);
+  }
+  100% {
+    opacity: 0;
+    transform: scale(1.9);
+  }
+}
+
+.animate-pulse-ring {
+  animation: pulse-ring 1.8s cubic-bezier(0.2, 0.7, 0.4, 1) infinite;
+}
+
+@keyframes tick-flash {
+  0% {
+    background-color: color-mix(in srgb, var(--color-sunburst) 34%, transparent);
+  }
+  100% {
+    background-color: transparent;
+  }
+}
+
+.animate-tick-flash {
+  animation: tick-flash 900ms ease-out 1;
+}
+
+@media print {
+  .no-print {
+    display: none !important;
+  }
+}

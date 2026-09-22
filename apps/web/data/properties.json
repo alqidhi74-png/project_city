@@ -1,0 +1,2814 @@
+[
+  {
+    "id": "PR-0001",
+    "districtId": "waha",
+    "type": "commercial",
+    "typeLabel": {
+      "ar": "تجاري",
+      "en": "Commercial"
+    },
+    "status": "reserved",
+    "unitLabel": {
+      "ar": "مكتب B-365",
+      "en": "Office B-365"
+    },
+    "price": 298200,
+    "areaSqm": 400,
+    "listedDate": "2024-08-08",
+    "buyer": {
+      "ar": "عائشة البلوشي",
+      "en": "Aisha Al Balushi"
+    }
+  },
+  {
+    "id": "PR-0002",
+    "districtId": "waha",
+    "type": "residential",
+    "typeLabel": {
+      "ar": "سكني",
+      "en": "Residential"
+    },
+    "status": "sold",
+    "unitLabel": {
+      "ar": "شقة B-472",
+      "en": "Apartment B-472"
+    },
+    "price": 130300,
+    "areaSqm": 187,
+    "bedrooms": 3,
+    "listedDate": "2024-11-20",
+    "saleDate": "2025-05-16",
+    "buyer": {
+      "ar": "مريم الرواحي",
+      "en": "Maryam Al Rawahi"
+    }
+  },
+  {
+    "id": "PR-0003",
+    "districtId": "waha",
+    "type": "residential",
+    "typeLabel": {
+      "ar": "سكني",
+      "en": "Residential"
+    },
+    "status": "available",
+    "unitLabel": {
+      "ar": "شقة D-144",
+      "en": "Apartment D-144"
+    },
+    "price": 124000,
+    "areaSqm": 205,
+    "bedrooms": 3,
+    "listedDate": "2024-09-23"
+  },
+  {
+    "id": "PR-0004",
+    "districtId": "waha",
+    "type": "residential",
+    "typeLabel": {
+      "ar": "سكني",
+      "en": "Residential"
+    },
+    "status": "sold",
+    "unitLabel": {
+      "ar": "شقة A-416",
+      "en": "Apartment A-416"
+    },
+    "price": 162500,
+    "areaSqm": 253,
+    "bedrooms": 5,
+    "listedDate": "2024-03-14",
+    "saleDate": "2025-02-20",
+    "buyer": {
+      "ar": "مريم الكندي",
+      "en": "Maryam Al Kindi"
+    }
+  },
+  {
+    "id": "PR-0005",
+    "districtId": "waha",
+    "type": "residential",
+    "typeLabel": {
+      "ar": "سكني",
+      "en": "Residential"
+    },
+    "status": "sold",
+    "unitLabel": {
+      "ar": "شقة D-223",
+      "en": "Apartment D-223"
+    },
+    "price": 141900,
+    "areaSqm": 221,
+    "bedrooms": 3,
+    "listedDate": "2024-03-22",
+    "saleDate": "2025-10-18",
+    "buyer": {
+      "ar": "ماجد الهنائي",
+      "en": "Majid Al Hinai"
+    }
+  },
+  {
+    "id": "PR-0006",
+    "districtId": "waha",
+    "type": "residential",
+    "typeLabel": {
+      "ar": "سكني",
+      "en": "Residential"
+    },
+    "status": "available",
+    "unitLabel": {
+      "ar": "شقة C-434",
+      "en": "Apartment C-434"
+    },
+    "price": 148700,
+    "areaSqm": 246,
+    "bedrooms": 4,
+    "listedDate": "2026-04-24"
+  },
+  {
+    "id": "PR-0007",
+    "districtId": "waha",
+    "type": "residential",
+    "typeLabel": {
+      "ar": "سكني",
+      "en": "Residential"
+    },
+    "status": "sold",
+    "unitLabel": {
+      "ar": "شقة D-314",
+      "en": "Apartment D-314"
+    },
+    "price": 117200,
+    "areaSqm": 176,
+    "bedrooms": 2,
+    "listedDate": "2025-04-28",
+    "saleDate": "2026-06-29",
+    "buyer": {
+      "ar": "مريم الهنائي",
+      "en": "Maryam Al Hinai"
+    }
+  },
+  {
+    "id": "PR-0008",
+    "districtId": "waha",
+    "type": "residential",
+    "typeLabel": {
+      "ar": "سكني",
+      "en": "Residential"
+    },
+    "status": "available",
+    "unitLabel": {
+      "ar": "شقة E-173",
+      "en": "Apartment E-173"
+    },
+    "price": 126700,
+    "areaSqm": 219,
+    "bedrooms": 3,
+    "listedDate": "2025-10-15"
+  },
+  {
+    "id": "PR-0009",
+    "districtId": "waha",
+    "type": "residential",
+    "typeLabel": {
+      "ar": "سكني",
+      "en": "Residential"
+    },
+    "status": "available",
+    "unitLabel": {
+      "ar": "شقة E-100",
+      "en": "Apartment E-100"
+    },
+    "price": 128200,
+    "areaSqm": 203,
+    "bedrooms": 3,
+    "listedDate": "2024-06-09"
+  },
+  {
+    "id": "PR-0010",
+    "districtId": "waha",
+    "type": "residential",
+    "typeLabel": {
+      "ar": "سكني",
+      "en": "Residential"
+    },
+    "status": "sold",
+    "unitLabel": {
+      "ar": "شقة D-442",
+      "en": "Apartment D-442"
+    },
+    "price": 81000,
+    "areaSqm": 124,
+    "bedrooms": 1,
+    "listedDate": "2026-06-12",
+    "saleDate": "2026-09-18",
+    "buyer": {
+      "ar": "مريم الحارثي",
+      "en": "Maryam Al Harthy"
+    }
+  },
+  {
+    "id": "PR-0011",
+    "districtId": "waha",
+    "type": "land",
+    "typeLabel": {
+      "ar": "أرض",
+      "en": "Land"
+    },
+    "status": "available",
+    "unitLabel": {
+      "ar": "قطعة أرض D-248",
+      "en": "Plot D-248"
+    },
+    "price": 122600,
+    "areaSqm": 891,
+    "listedDate": "2025-03-03"
+  },
+  {
+    "id": "PR-0012",
+    "districtId": "waha",
+    "type": "residential",
+    "typeLabel": {
+      "ar": "سكني",
+      "en": "Residential"
+    },
+    "status": "sold",
+    "unitLabel": {
+      "ar": "شقة C-466",
+      "en": "Apartment C-466"
+    },
+    "price": 116600,
+    "areaSqm": 178,
+    "bedrooms": 2,
+    "listedDate": "2025-10-17",
+    "saleDate": "2026-04-08",
+    "buyer": {
+      "ar": "ماجد الحارثي",
+      "en": "Majid Al Harthy"
+    }
+  },
+  {
+    "id": "PR-0013",
+    "districtId": "waha",
+    "type": "residential",
+    "typeLabel": {
+      "ar": "سكني",
+      "en": "Residential"
+    },
+    "status": "reserved",
+    "unitLabel": {
+      "ar": "شقة C-338",
+      "en": "Apartment C-338"
+    },
+    "price": 124400,
+    "areaSqm": 203,
+    "bedrooms": 3,
+    "listedDate": "2025-01-03",
+    "buyer": {
+      "ar": "عائشة المعمري",
+      "en": "Aisha Al Maamari"
+    }
+  },
+  {
+    "id": "PR-0014",
+    "districtId": "waha",
+    "type": "commercial",
+    "typeLabel": {
+      "ar": "تجاري",
+      "en": "Commercial"
+    },
+    "status": "sold",
+    "unitLabel": {
+      "ar": "مكتب D-406",
+      "en": "Office D-406"
+    },
+    "price": 161900,
+    "areaSqm": 158,
+    "listedDate": "2026-01-24",
+    "saleDate": "2026-07-10",
+    "buyer": {
+      "ar": "ماجد الشكيلي",
+      "en": "Majid Al Shukaili"
+    }
+  },
+  {
+    "id": "PR-0015",
+    "districtId": "waha",
+    "type": "commercial",
+    "typeLabel": {
+      "ar": "تجاري",
+      "en": "Commercial"
+    },
+    "status": "sold",
+    "unitLabel": {
+      "ar": "مكتب A-266",
+      "en": "Office A-266"
+    },
+    "price": 270300,
+    "areaSqm": 353,
+    "listedDate": "2024-09-13",
+    "saleDate": "2025-09-28",
+    "buyer": {
+      "ar": "ماجد البلوشي",
+      "en": "Majid Al Balushi"
+    }
+  },
+  {
+    "id": "PR-0016",
+    "districtId": "waha",
+    "type": "residential",
+    "typeLabel": {
+      "ar": "سكني",
+      "en": "Residential"
+    },
+    "status": "reserved",
+    "unitLabel": {
+      "ar": "شقة D-468",
+      "en": "Apartment D-468"
+    },
+    "price": 190200,
+    "areaSqm": 285,
+    "bedrooms": 5,
+    "listedDate": "2024-09-12",
+    "buyer": {
+      "ar": "هدى البلوشي",
+      "en": "Huda Al Balushi"
+    }
+  },
+  {
+    "id": "PR-0017",
+    "districtId": "waha",
+    "type": "residential",
+    "typeLabel": {
+      "ar": "سكني",
+      "en": "Residential"
+    },
+    "status": "sold",
+    "unitLabel": {
+      "ar": "شقة A-499",
+      "en": "Apartment A-499"
+    },
+    "price": 149000,
+    "areaSqm": 221,
+    "bedrooms": 4,
+    "listedDate": "2024-05-06",
+    "saleDate": "2025-10-01",
+    "buyer": {
+      "ar": "عائشة البلوشي",
+      "en": "Aisha Al Balushi"
+    }
+  },
+  {
+    "id": "PR-0018",
+    "districtId": "waha",
+    "type": "residential",
+    "typeLabel": {
+      "ar": "سكني",
+      "en": "Residential"
+    },
+    "status": "sold",
+    "unitLabel": {
+      "ar": "شقة A-411",
+      "en": "Apartment A-411"
+    },
+    "price": 114100,
+    "areaSqm": 174,
+    "bedrooms": 2,
+    "listedDate": "2026-02-15",
+    "saleDate": "2026-04-02",
+    "buyer": {
+      "ar": "يوسف البلوشي",
+      "en": "Yousuf Al Balushi"
+    }
+  },
+  {
+    "id": "PR-0019",
+    "districtId": "waha",
+    "type": "residential",
+    "typeLabel": {
+      "ar": "سكني",
+      "en": "Residential"
+    },
+    "status": "reserved",
+    "unitLabel": {
+      "ar": "شقة C-195",
+      "en": "Apartment C-195"
+    },
+    "price": 146600,
+    "areaSqm": 242,
+    "bedrooms": 4,
+    "listedDate": "2026-05-30",
+    "buyer": {
+      "ar": "ريم البلوشي",
+      "en": "Reem Al Balushi"
+    }
+  },
+  {
+    "id": "PR-0020",
+    "districtId": "waha",
+    "type": "commercial",
+    "typeLabel": {
+      "ar": "تجاري",
+      "en": "Commercial"
+    },
+    "status": "available",
+    "unitLabel": {
+      "ar": "مكتب E-200",
+      "en": "Office E-200"
+    },
+    "price": 208300,
+    "areaSqm": 242,
+    "listedDate": "2026-02-15"
+  },
+  {
+    "id": "PR-0021",
+    "districtId": "waha",
+    "type": "commercial",
+    "typeLabel": {
+      "ar": "تجاري",
+      "en": "Commercial"
+    },
+    "status": "reserved",
+    "unitLabel": {
+      "ar": "مكتب D-388",
+      "en": "Office D-388"
+    },
+    "price": 212800,
+    "areaSqm": 222,
+    "listedDate": "2024-08-17",
+    "buyer": {
+      "ar": "سالم الرواحي",
+      "en": "Salim Al Rawahi"
+    }
+  },
+  {
+    "id": "PR-0022",
+    "districtId": "waha",
+    "type": "residential",
+    "typeLabel": {
+      "ar": "سكني",
+      "en": "Residential"
+    },
+    "status": "reserved",
+    "unitLabel": {
+      "ar": "شقة E-208",
+      "en": "Apartment E-208"
+    },
+    "price": 162400,
+    "areaSqm": 271,
+    "bedrooms": 5,
+    "listedDate": "2024-12-14",
+    "buyer": {
+      "ar": "فاطمة الهنائي",
+      "en": "Fatma Al Hinai"
+    }
+  },
+  {
+    "id": "PR-0023",
+    "districtId": "waha",
+    "type": "residential",
+    "typeLabel": {
+      "ar": "سكني",
+      "en": "Residential"
+    },
+    "status": "sold",
+    "unitLabel": {
+      "ar": "شقة B-206",
+      "en": "Apartment B-206"
+    },
+    "price": 138100,
+    "areaSqm": 205,
+    "bedrooms": 3,
+    "listedDate": "2024-07-08",
+    "saleDate": "2024-09-02",
+    "buyer": {
+      "ar": "ماجد الحارثي",
+      "en": "Majid Al Harthy"
+    }
+  },
+  {
+    "id": "PR-0024",
+    "districtId": "waha",
+    "type": "residential",
+    "typeLabel": {
+      "ar": "سكني",
+      "en": "Residential"
+    },
+    "status": "sold",
+    "unitLabel": {
+      "ar": "شقة C-447",
+      "en": "Apartment C-447"
+    },
+    "price": 112500,
+    "areaSqm": 165,
+    "bedrooms": 2,
+    "listedDate": "2026-04-11",
+    "saleDate": "2026-07-08",
+    "buyer": {
+      "ar": "سالم البلوشي",
+      "en": "Salim Al Balushi"
+    }
+  },
+  {
+    "id": "PR-0025",
+    "districtId": "waha",
+    "type": "commercial",
+    "typeLabel": {
+      "ar": "تجاري",
+      "en": "Commercial"
+    },
+    "status": "reserved",
+    "unitLabel": {
+      "ar": "مكتب B-367",
+      "en": "Office B-367"
+    },
+    "price": 269100,
+    "areaSqm": 348,
+    "listedDate": "2024-05-03",
+    "buyer": {
+      "ar": "نورة الكندي",
+      "en": "Noura Al Kindi"
+    }
+  },
+  {
+    "id": "PR-0026",
+    "districtId": "waha",
+    "type": "residential",
+    "typeLabel": {
+      "ar": "سكني",
+      "en": "Residential"
+    },
+    "status": "available",
+    "unitLabel": {
+      "ar": "شقة A-224",
+      "en": "Apartment A-224"
+    },
+    "price": 106800,
+    "areaSqm": 159,
+    "bedrooms": 2,
+    "listedDate": "2024-03-07"
+  },
+  {
+    "id": "PR-0027",
+    "districtId": "waha",
+    "type": "residential",
+    "typeLabel": {
+      "ar": "سكني",
+      "en": "Residential"
+    },
+    "status": "available",
+    "unitLabel": {
+      "ar": "شقة A-369",
+      "en": "Apartment A-369"
+    },
+    "price": 121100,
+    "areaSqm": 201,
+    "bedrooms": 3,
+    "listedDate": "2025-11-19"
+  },
+  {
+    "id": "PR-0028",
+    "districtId": "waha",
+    "type": "commercial",
+    "typeLabel": {
+      "ar": "تجاري",
+      "en": "Commercial"
+    },
+    "status": "available",
+    "unitLabel": {
+      "ar": "مكتب F-436",
+      "en": "Office F-436"
+    },
+    "price": 263900,
+    "areaSqm": 308,
+    "listedDate": "2024-12-03"
+  },
+  {
+    "id": "PR-0029",
+    "districtId": "waha",
+    "type": "commercial",
+    "typeLabel": {
+      "ar": "تجاري",
+      "en": "Commercial"
+    },
+    "status": "available",
+    "unitLabel": {
+      "ar": "مكتب D-221",
+      "en": "Office D-221"
+    },
+    "price": 289700,
+    "areaSqm": 423,
+    "listedDate": "2024-05-10"
+  },
+  {
+    "id": "PR-0030",
+    "districtId": "waha",
+    "type": "residential",
+    "typeLabel": {
+      "ar": "سكني",
+      "en": "Residential"
+    },
+    "status": "reserved",
+    "unitLabel": {
+      "ar": "شقة A-187",
+      "en": "Apartment A-187"
+    },
+    "price": 110700,
+    "areaSqm": 173,
+    "bedrooms": 2,
+    "listedDate": "2024-05-09",
+    "buyer": {
+      "ar": "ريم السيابي",
+      "en": "Reem Al Siyabi"
+    }
+  },
+  {
+    "id": "PR-0031",
+    "districtId": "waha",
+    "type": "residential",
+    "typeLabel": {
+      "ar": "سكني",
+      "en": "Residential"
+    },
+    "status": "sold",
+    "unitLabel": {
+      "ar": "شقة D-413",
+      "en": "Apartment D-413"
+    },
+    "price": 183600,
+    "areaSqm": 265,
+    "bedrooms": 5,
+    "listedDate": "2024-02-29",
+    "saleDate": "2024-11-01",
+    "buyer": {
+      "ar": "سالم الرواحي",
+      "en": "Salim Al Rawahi"
+    }
+  },
+  {
+    "id": "PR-0032",
+    "districtId": "waha",
+    "type": "residential",
+    "typeLabel": {
+      "ar": "سكني",
+      "en": "Residential"
+    },
+    "status": "available",
+    "unitLabel": {
+      "ar": "شقة F-285",
+      "en": "Apartment F-285"
+    },
+    "price": 137500,
+    "areaSqm": 206,
+    "bedrooms": 3,
+    "listedDate": "2025-10-04"
+  },
+  {
+    "id": "PR-0033",
+    "districtId": "waha",
+    "type": "commercial",
+    "typeLabel": {
+      "ar": "تجاري",
+      "en": "Commercial"
+    },
+    "status": "sold",
+    "unitLabel": {
+      "ar": "مكتب C-439",
+      "en": "Office C-439"
+    },
+    "price": 190700,
+    "areaSqm": 225,
+    "listedDate": "2024-05-20",
+    "saleDate": "2025-08-21",
+    "buyer": {
+      "ar": "ماجد الحارثي",
+      "en": "Majid Al Harthy"
+    }
+  },
+  {
+    "id": "PR-0034",
+    "districtId": "waha",
+    "type": "commercial",
+    "typeLabel": {
+      "ar": "تجاري",
+      "en": "Commercial"
+    },
+    "status": "available",
+    "unitLabel": {
+      "ar": "مكتب C-420",
+      "en": "Office C-420"
+    },
+    "price": 154300,
+    "areaSqm": 145,
+    "listedDate": "2025-06-01"
+  },
+  {
+    "id": "PR-0035",
+    "districtId": "waha",
+    "type": "residential",
+    "typeLabel": {
+      "ar": "سكني",
+      "en": "Residential"
+    },
+    "status": "sold",
+    "unitLabel": {
+      "ar": "شقة A-374",
+      "en": "Apartment A-374"
+    },
+    "price": 104600,
+    "areaSqm": 175,
+    "bedrooms": 2,
+    "listedDate": "2024-03-22",
+    "saleDate": "2024-12-10",
+    "buyer": {
+      "ar": "مريم الحارثي",
+      "en": "Maryam Al Harthy"
+    }
+  },
+  {
+    "id": "PR-0036",
+    "districtId": "waha",
+    "type": "residential",
+    "typeLabel": {
+      "ar": "سكني",
+      "en": "Residential"
+    },
+    "status": "sold",
+    "unitLabel": {
+      "ar": "شقة C-161",
+      "en": "Apartment C-161"
+    },
+    "price": 101700,
+    "areaSqm": 185,
+    "bedrooms": 2,
+    "listedDate": "2024-08-24",
+    "saleDate": "2025-06-26",
+    "buyer": {
+      "ar": "سالم المعمري",
+      "en": "Salim Al Maamari"
+    }
+  },
+  {
+    "id": "PR-0037",
+    "districtId": "waha",
+    "type": "land",
+    "typeLabel": {
+      "ar": "أرض",
+      "en": "Land"
+    },
+    "status": "sold",
+    "unitLabel": {
+      "ar": "قطعة أرض E-291",
+      "en": "Plot E-291"
+    },
+    "price": 125500,
+    "areaSqm": 1084,
+    "listedDate": "2026-05-11",
+    "saleDate": "2026-08-06",
+    "buyer": {
+      "ar": "هدى البلوشي",
+      "en": "Huda Al Balushi"
+    }
+  },
+  {
+    "id": "PR-0038",
+    "districtId": "waha",
+    "type": "residential",
+    "typeLabel": {
+      "ar": "سكني",
+      "en": "Residential"
+    },
+    "status": "reserved",
+    "unitLabel": {
+      "ar": "شقة C-183",
+      "en": "Apartment C-183"
+    },
+    "price": 130800,
+    "areaSqm": 209,
+    "bedrooms": 3,
+    "listedDate": "2025-08-21",
+    "buyer": {
+      "ar": "أحمد الشكيلي",
+      "en": "Ahmed Al Shukaili"
+    }
+  },
+  {
+    "id": "PR-0039",
+    "districtId": "waha",
+    "type": "land",
+    "typeLabel": {
+      "ar": "أرض",
+      "en": "Land"
+    },
+    "status": "sold",
+    "unitLabel": {
+      "ar": "قطعة أرض D-461",
+      "en": "Plot D-461"
+    },
+    "price": 53500,
+    "areaSqm": 226,
+    "listedDate": "2025-07-21",
+    "saleDate": "2026-04-13",
+    "buyer": {
+      "ar": "عائشة البلوشي",
+      "en": "Aisha Al Balushi"
+    }
+  },
+  {
+    "id": "PR-0040",
+    "districtId": "waha",
+    "type": "commercial",
+    "typeLabel": {
+      "ar": "تجاري",
+      "en": "Commercial"
+    },
+    "status": "reserved",
+    "unitLabel": {
+      "ar": "مكتب A-298",
+      "en": "Office A-298"
+    },
+    "price": 191600,
+    "areaSqm": 253,
+    "listedDate": "2026-06-22",
+    "buyer": {
+      "ar": "فاطمة الشكيلي",
+      "en": "Fatma Al Shukaili"
+    }
+  },
+  {
+    "id": "PR-0041",
+    "districtId": "waha",
+    "type": "residential",
+    "typeLabel": {
+      "ar": "سكني",
+      "en": "Residential"
+    },
+    "status": "available",
+    "unitLabel": {
+      "ar": "شقة C-130",
+      "en": "Apartment C-130"
+    },
+    "price": 98100,
+    "areaSqm": 157,
+    "bedrooms": 2,
+    "listedDate": "2024-01-29"
+  },
+  {
+    "id": "PR-0042",
+    "districtId": "waha",
+    "type": "residential",
+    "typeLabel": {
+      "ar": "سكني",
+      "en": "Residential"
+    },
+    "status": "sold",
+    "unitLabel": {
+      "ar": "شقة E-103",
+      "en": "Apartment E-103"
+    },
+    "price": 177000,
+    "areaSqm": 288,
+    "bedrooms": 5,
+    "listedDate": "2024-08-05",
+    "saleDate": "2025-02-05",
+    "buyer": {
+      "ar": "هدى الكندي",
+      "en": "Huda Al Kindi"
+    }
+  },
+  {
+    "id": "PR-0043",
+    "districtId": "waha",
+    "type": "residential",
+    "typeLabel": {
+      "ar": "سكني",
+      "en": "Residential"
+    },
+    "status": "sold",
+    "unitLabel": {
+      "ar": "شقة C-230",
+      "en": "Apartment C-230"
+    },
+    "price": 159500,
+    "areaSqm": 254,
+    "bedrooms": 4,
+    "listedDate": "2024-07-21",
+    "saleDate": "2025-10-03",
+    "buyer": {
+      "ar": "خالد الرواحي",
+      "en": "Khalid Al Rawahi"
+    }
+  },
+  {
+    "id": "PR-0044",
+    "districtId": "waha",
+    "type": "residential",
+    "typeLabel": {
+      "ar": "سكني",
+      "en": "Residential"
+    },
+    "status": "sold",
+    "unitLabel": {
+      "ar": "شقة C-449",
+      "en": "Apartment C-449"
+    },
+    "price": 152100,
+    "areaSqm": 237,
+    "bedrooms": 4,
+    "listedDate": "2024-02-29",
+    "saleDate": "2024-05-03",
+    "buyer": {
+      "ar": "يوسف البلوشي",
+      "en": "Yousuf Al Balushi"
+    }
+  },
+  {
+    "id": "PR-0045",
+    "districtId": "waha",
+    "type": "residential",
+    "typeLabel": {
+      "ar": "سكني",
+      "en": "Residential"
+    },
+    "status": "reserved",
+    "unitLabel": {
+      "ar": "شقة F-359",
+      "en": "Apartment F-359"
+    },
+    "price": 168300,
+    "areaSqm": 266,
+    "bedrooms": 5,
+    "listedDate": "2026-03-29",
+    "buyer": {
+      "ar": "نورة المعمري",
+      "en": "Noura Al Maamari"
+    }
+  },
+  {
+    "id": "PR-0046",
+    "districtId": "waha",
+    "type": "residential",
+    "typeLabel": {
+      "ar": "سكني",
+      "en": "Residential"
+    },
+    "status": "available",
+    "unitLabel": {
+      "ar": "شقة A-387",
+      "en": "Apartment A-387"
+    },
+    "price": 104400,
+    "areaSqm": 155,
+    "bedrooms": 2,
+    "listedDate": "2025-02-02"
+  },
+  {
+    "id": "PR-0047",
+    "districtId": "waha",
+    "type": "commercial",
+    "typeLabel": {
+      "ar": "تجاري",
+      "en": "Commercial"
+    },
+    "status": "reserved",
+    "unitLabel": {
+      "ar": "مكتب D-438",
+      "en": "Office D-438"
+    },
+    "price": 303300,
+    "areaSqm": 438,
+    "listedDate": "2025-12-18",
+    "buyer": {
+      "ar": "أحمد البلوشي",
+      "en": "Ahmed Al Balushi"
+    }
+  },
+  {
+    "id": "PR-0048",
+    "districtId": "waha",
+    "type": "land",
+    "typeLabel": {
+      "ar": "أرض",
+      "en": "Land"
+    },
+    "status": "available",
+    "unitLabel": {
+      "ar": "قطعة أرض E-100",
+      "en": "Plot E-100"
+    },
+    "price": 132200,
+    "areaSqm": 1060,
+    "listedDate": "2024-06-25"
+  },
+  {
+    "id": "PR-0049",
+    "districtId": "waha",
+    "type": "commercial",
+    "typeLabel": {
+      "ar": "تجاري",
+      "en": "Commercial"
+    },
+    "status": "available",
+    "unitLabel": {
+      "ar": "مكتب C-458",
+      "en": "Office C-458"
+    },
+    "price": 233500,
+    "areaSqm": 326,
+    "listedDate": "2024-03-23"
+  },
+  {
+    "id": "PR-0050",
+    "districtId": "waha",
+    "type": "residential",
+    "typeLabel": {
+      "ar": "سكني",
+      "en": "Residential"
+    },
+    "status": "reserved",
+    "unitLabel": {
+      "ar": "شقة B-229",
+      "en": "Apartment B-229"
+    },
+    "price": 85100,
+    "areaSqm": 155,
+    "bedrooms": 1,
+    "listedDate": "2025-10-24",
+    "buyer": {
+      "ar": "هدى الرواحي",
+      "en": "Huda Al Rawahi"
+    }
+  },
+  {
+    "id": "PR-0051",
+    "districtId": "waha",
+    "type": "commercial",
+    "typeLabel": {
+      "ar": "تجاري",
+      "en": "Commercial"
+    },
+    "status": "sold",
+    "unitLabel": {
+      "ar": "مكتب F-376",
+      "en": "Office F-376"
+    },
+    "price": 247500,
+    "areaSqm": 323,
+    "listedDate": "2024-12-24",
+    "saleDate": "2025-10-25",
+    "buyer": {
+      "ar": "خالد الشكيلي",
+      "en": "Khalid Al Shukaili"
+    }
+  },
+  {
+    "id": "PR-0052",
+    "districtId": "waha",
+    "type": "commercial",
+    "typeLabel": {
+      "ar": "تجاري",
+      "en": "Commercial"
+    },
+    "status": "sold",
+    "unitLabel": {
+      "ar": "مكتب A-351",
+      "en": "Office A-351"
+    },
+    "price": 202900,
+    "areaSqm": 227,
+    "listedDate": "2026-06-14",
+    "saleDate": "2026-06-20",
+    "buyer": {
+      "ar": "نورة الهنائي",
+      "en": "Noura Al Hinai"
+    }
+  },
+  {
+    "id": "PR-0053",
+    "districtId": "waha",
+    "type": "residential",
+    "typeLabel": {
+      "ar": "سكني",
+      "en": "Residential"
+    },
+    "status": "available",
+    "unitLabel": {
+      "ar": "شقة D-270",
+      "en": "Apartment D-270"
+    },
+    "price": 86900,
+    "areaSqm": 146,
+    "bedrooms": 1,
+    "listedDate": "2025-01-01"
+  },
+  {
+    "id": "PR-0054",
+    "districtId": "waha",
+    "type": "land",
+    "typeLabel": {
+      "ar": "أرض",
+      "en": "Land"
+    },
+    "status": "sold",
+    "unitLabel": {
+      "ar": "قطعة أرض B-202",
+      "en": "Plot B-202"
+    },
+    "price": 125500,
+    "areaSqm": 874,
+    "listedDate": "2025-06-28",
+    "saleDate": "2026-04-06",
+    "buyer": {
+      "ar": "عائشة المعمري",
+      "en": "Aisha Al Maamari"
+    }
+  },
+  {
+    "id": "PR-0055",
+    "districtId": "waha",
+    "type": "residential",
+    "typeLabel": {
+      "ar": "سكني",
+      "en": "Residential"
+    },
+    "status": "sold",
+    "unitLabel": {
+      "ar": "شقة E-137",
+      "en": "Apartment E-137"
+    },
+    "price": 172400,
+    "areaSqm": 263,
+    "bedrooms": 5,
+    "listedDate": "2026-04-03",
+    "saleDate": "2026-09-16",
+    "buyer": {
+      "ar": "ريم الشكيلي",
+      "en": "Reem Al Shukaili"
+    }
+  },
+  {
+    "id": "PR-0056",
+    "districtId": "rimal",
+    "type": "residential",
+    "typeLabel": {
+      "ar": "سكني",
+      "en": "Residential"
+    },
+    "status": "sold",
+    "unitLabel": {
+      "ar": "شقة A-400",
+      "en": "Apartment A-400"
+    },
+    "price": 83300,
+    "areaSqm": 130,
+    "bedrooms": 1,
+    "listedDate": "2024-07-26",
+    "saleDate": "2026-08-13",
+    "buyer": {
+      "ar": "خالد السيابي",
+      "en": "Khalid Al Siyabi"
+    }
+  },
+  {
+    "id": "PR-0057",
+    "districtId": "rimal",
+    "type": "residential",
+    "typeLabel": {
+      "ar": "سكني",
+      "en": "Residential"
+    },
+    "status": "reserved",
+    "unitLabel": {
+      "ar": "شقة C-351",
+      "en": "Apartment C-351"
+    },
+    "price": 80100,
+    "areaSqm": 131,
+    "bedrooms": 1,
+    "listedDate": "2024-08-09",
+    "buyer": {
+      "ar": "نورة المعمري",
+      "en": "Noura Al Maamari"
+    }
+  },
+  {
+    "id": "PR-0058",
+    "districtId": "rimal",
+    "type": "residential",
+    "typeLabel": {
+      "ar": "سكني",
+      "en": "Residential"
+    },
+    "status": "reserved",
+    "unitLabel": {
+      "ar": "شقة F-229",
+      "en": "Apartment F-229"
+    },
+    "price": 82400,
+    "areaSqm": 126,
+    "bedrooms": 1,
+    "listedDate": "2024-07-14",
+    "buyer": {
+      "ar": "أحمد الرواحي",
+      "en": "Ahmed Al Rawahi"
+    }
+  },
+  {
+    "id": "PR-0059",
+    "districtId": "rimal",
+    "type": "land",
+    "typeLabel": {
+      "ar": "أرض",
+      "en": "Land"
+    },
+    "status": "reserved",
+    "unitLabel": {
+      "ar": "قطعة أرض E-126",
+      "en": "Plot E-126"
+    },
+    "price": 98800,
+    "areaSqm": 854,
+    "listedDate": "2026-05-19",
+    "buyer": {
+      "ar": "ماجد الرواحي",
+      "en": "Majid Al Rawahi"
+    }
+  },
+  {
+    "id": "PR-0060",
+    "districtId": "rimal",
+    "type": "residential",
+    "typeLabel": {
+      "ar": "سكني",
+      "en": "Residential"
+    },
+    "status": "sold",
+    "unitLabel": {
+      "ar": "شقة B-242",
+      "en": "Apartment B-242"
+    },
+    "price": 106000,
+    "areaSqm": 165,
+    "bedrooms": 2,
+    "listedDate": "2025-11-21",
+    "saleDate": "2026-05-13",
+    "buyer": {
+      "ar": "ريم المعمري",
+      "en": "Reem Al Maamari"
+    }
+  },
+  {
+    "id": "PR-0061",
+    "districtId": "rimal",
+    "type": "commercial",
+    "typeLabel": {
+      "ar": "تجاري",
+      "en": "Commercial"
+    },
+    "status": "sold",
+    "unitLabel": {
+      "ar": "مكتب C-270",
+      "en": "Office C-270"
+    },
+    "price": 172400,
+    "areaSqm": 170,
+    "listedDate": "2026-03-19",
+    "saleDate": "2026-03-20",
+    "buyer": {
+      "ar": "نورة الرواحي",
+      "en": "Noura Al Rawahi"
+    }
+  },
+  {
+    "id": "PR-0062",
+    "districtId": "rimal",
+    "type": "land",
+    "typeLabel": {
+      "ar": "أرض",
+      "en": "Land"
+    },
+    "status": "sold",
+    "unitLabel": {
+      "ar": "قطعة أرض E-363",
+      "en": "Plot E-363"
+    },
+    "price": 152700,
+    "areaSqm": 1122,
+    "listedDate": "2024-05-28",
+    "saleDate": "2024-08-07",
+    "buyer": {
+      "ar": "فاطمة البلوشي",
+      "en": "Fatma Al Balushi"
+    }
+  },
+  {
+    "id": "PR-0063",
+    "districtId": "rimal",
+    "type": "residential",
+    "typeLabel": {
+      "ar": "سكني",
+      "en": "Residential"
+    },
+    "status": "sold",
+    "unitLabel": {
+      "ar": "شقة C-361",
+      "en": "Apartment C-361"
+    },
+    "price": 162000,
+    "areaSqm": 233,
+    "bedrooms": 4,
+    "listedDate": "2026-02-21",
+    "saleDate": "2026-07-21",
+    "buyer": {
+      "ar": "بدر الرواحي",
+      "en": "Badr Al Rawahi"
+    }
+  },
+  {
+    "id": "PR-0064",
+    "districtId": "rimal",
+    "type": "commercial",
+    "typeLabel": {
+      "ar": "تجاري",
+      "en": "Commercial"
+    },
+    "status": "reserved",
+    "unitLabel": {
+      "ar": "مكتب A-348",
+      "en": "Office A-348"
+    },
+    "price": 245700,
+    "areaSqm": 285,
+    "listedDate": "2025-06-13",
+    "buyer": {
+      "ar": "سالم الكندي",
+      "en": "Salim Al Kindi"
+    }
+  },
+  {
+    "id": "PR-0065",
+    "districtId": "rimal",
+    "type": "commercial",
+    "typeLabel": {
+      "ar": "تجاري",
+      "en": "Commercial"
+    },
+    "status": "available",
+    "unitLabel": {
+      "ar": "مكتب E-323",
+      "en": "Office E-323"
+    },
+    "price": 146800,
+    "areaSqm": 145,
+    "listedDate": "2025-05-26"
+  },
+  {
+    "id": "PR-0066",
+    "districtId": "rimal",
+    "type": "land",
+    "typeLabel": {
+      "ar": "أرض",
+      "en": "Land"
+    },
+    "status": "sold",
+    "unitLabel": {
+      "ar": "قطعة أرض F-283",
+      "en": "Plot F-283"
+    },
+    "price": 49300,
+    "areaSqm": 241,
+    "listedDate": "2024-06-11",
+    "saleDate": "2024-11-20",
+    "buyer": {
+      "ar": "نورة الكندي",
+      "en": "Noura Al Kindi"
+    }
+  },
+  {
+    "id": "PR-0067",
+    "districtId": "rimal",
+    "type": "land",
+    "typeLabel": {
+      "ar": "أرض",
+      "en": "Land"
+    },
+    "status": "reserved",
+    "unitLabel": {
+      "ar": "قطعة أرض E-416",
+      "en": "Plot E-416"
+    },
+    "price": 50000,
+    "areaSqm": 255,
+    "listedDate": "2025-03-31",
+    "buyer": {
+      "ar": "بدر الشكيلي",
+      "en": "Badr Al Shukaili"
+    }
+  },
+  {
+    "id": "PR-0068",
+    "districtId": "rimal",
+    "type": "commercial",
+    "typeLabel": {
+      "ar": "تجاري",
+      "en": "Commercial"
+    },
+    "status": "reserved",
+    "unitLabel": {
+      "ar": "مكتب E-441",
+      "en": "Office E-441"
+    },
+    "price": 149800,
+    "areaSqm": 162,
+    "listedDate": "2025-12-17",
+    "buyer": {
+      "ar": "خالد البلوشي",
+      "en": "Khalid Al Balushi"
+    }
+  },
+  {
+    "id": "PR-0069",
+    "districtId": "rimal",
+    "type": "residential",
+    "typeLabel": {
+      "ar": "سكني",
+      "en": "Residential"
+    },
+    "status": "reserved",
+    "unitLabel": {
+      "ar": "شقة F-451",
+      "en": "Apartment F-451"
+    },
+    "price": 85800,
+    "areaSqm": 132,
+    "bedrooms": 1,
+    "listedDate": "2025-09-14",
+    "buyer": {
+      "ar": "نورة الرواحي",
+      "en": "Noura Al Rawahi"
+    }
+  },
+  {
+    "id": "PR-0070",
+    "districtId": "rimal",
+    "type": "residential",
+    "typeLabel": {
+      "ar": "سكني",
+      "en": "Residential"
+    },
+    "status": "reserved",
+    "unitLabel": {
+      "ar": "شقة E-117",
+      "en": "Apartment E-117"
+    },
+    "price": 148400,
+    "areaSqm": 220,
+    "bedrooms": 4,
+    "listedDate": "2024-02-09",
+    "buyer": {
+      "ar": "نورة الهنائي",
+      "en": "Noura Al Hinai"
+    }
+  },
+  {
+    "id": "PR-0071",
+    "districtId": "rimal",
+    "type": "residential",
+    "typeLabel": {
+      "ar": "سكني",
+      "en": "Residential"
+    },
+    "status": "available",
+    "unitLabel": {
+      "ar": "شقة B-142",
+      "en": "Apartment B-142"
+    },
+    "price": 170800,
+    "areaSqm": 273,
+    "bedrooms": 5,
+    "listedDate": "2026-05-21"
+  },
+  {
+    "id": "PR-0072",
+    "districtId": "rimal",
+    "type": "commercial",
+    "typeLabel": {
+      "ar": "تجاري",
+      "en": "Commercial"
+    },
+    "status": "sold",
+    "unitLabel": {
+      "ar": "مكتب D-222",
+      "en": "Office D-222"
+    },
+    "price": 310600,
+    "areaSqm": 479,
+    "listedDate": "2024-02-29",
+    "saleDate": "2024-06-06",
+    "buyer": {
+      "ar": "عائشة الكندي",
+      "en": "Aisha Al Kindi"
+    }
+  },
+  {
+    "id": "PR-0073",
+    "districtId": "rimal",
+    "type": "residential",
+    "typeLabel": {
+      "ar": "سكني",
+      "en": "Residential"
+    },
+    "status": "sold",
+    "unitLabel": {
+      "ar": "شقة E-203",
+      "en": "Apartment E-203"
+    },
+    "price": 120700,
+    "areaSqm": 210,
+    "bedrooms": 3,
+    "listedDate": "2024-08-25",
+    "saleDate": "2024-09-15",
+    "buyer": {
+      "ar": "مريم السيابي",
+      "en": "Maryam Al Siyabi"
+    }
+  },
+  {
+    "id": "PR-0074",
+    "districtId": "rimal",
+    "type": "residential",
+    "typeLabel": {
+      "ar": "سكني",
+      "en": "Residential"
+    },
+    "status": "sold",
+    "unitLabel": {
+      "ar": "شقة B-180",
+      "en": "Apartment B-180"
+    },
+    "price": 141500,
+    "areaSqm": 219,
+    "bedrooms": 3,
+    "listedDate": "2025-07-24",
+    "saleDate": "2026-08-26",
+    "buyer": {
+      "ar": "عائشة الحارثي",
+      "en": "Aisha Al Harthy"
+    }
+  },
+  {
+    "id": "PR-0075",
+    "districtId": "rimal",
+    "type": "residential",
+    "typeLabel": {
+      "ar": "سكني",
+      "en": "Residential"
+    },
+    "status": "reserved",
+    "unitLabel": {
+      "ar": "شقة C-464",
+      "en": "Apartment C-464"
+    },
+    "price": 94000,
+    "areaSqm": 152,
+    "bedrooms": 1,
+    "listedDate": "2025-12-31",
+    "buyer": {
+      "ar": "عائشة البلوشي",
+      "en": "Aisha Al Balushi"
+    }
+  },
+  {
+    "id": "PR-0076",
+    "districtId": "rimal",
+    "type": "residential",
+    "typeLabel": {
+      "ar": "سكني",
+      "en": "Residential"
+    },
+    "status": "available",
+    "unitLabel": {
+      "ar": "شقة F-314",
+      "en": "Apartment F-314"
+    },
+    "price": 160800,
+    "areaSqm": 273,
+    "bedrooms": 5,
+    "listedDate": "2026-02-07"
+  },
+  {
+    "id": "PR-0077",
+    "districtId": "rimal",
+    "type": "residential",
+    "typeLabel": {
+      "ar": "سكني",
+      "en": "Residential"
+    },
+    "status": "available",
+    "unitLabel": {
+      "ar": "شقة D-362",
+      "en": "Apartment D-362"
+    },
+    "price": 108600,
+    "areaSqm": 169,
+    "bedrooms": 2,
+    "listedDate": "2025-07-18"
+  },
+  {
+    "id": "PR-0078",
+    "districtId": "rimal",
+    "type": "residential",
+    "typeLabel": {
+      "ar": "سكني",
+      "en": "Residential"
+    },
+    "status": "sold",
+    "unitLabel": {
+      "ar": "شقة A-108",
+      "en": "Apartment A-108"
+    },
+    "price": 103900,
+    "areaSqm": 189,
+    "bedrooms": 2,
+    "listedDate": "2025-08-29",
+    "saleDate": "2026-03-04",
+    "buyer": {
+      "ar": "نورة المعمري",
+      "en": "Noura Al Maamari"
+    }
+  },
+  {
+    "id": "PR-0079",
+    "districtId": "rimal",
+    "type": "land",
+    "typeLabel": {
+      "ar": "أرض",
+      "en": "Land"
+    },
+    "status": "available",
+    "unitLabel": {
+      "ar": "قطعة أرض D-419",
+      "en": "Plot D-419"
+    },
+    "price": 103100,
+    "areaSqm": 762,
+    "listedDate": "2024-03-11"
+  },
+  {
+    "id": "PR-0080",
+    "districtId": "rimal",
+    "type": "residential",
+    "typeLabel": {
+      "ar": "سكني",
+      "en": "Residential"
+    },
+    "status": "reserved",
+    "unitLabel": {
+      "ar": "شقة F-168",
+      "en": "Apartment F-168"
+    },
+    "price": 173600,
+    "areaSqm": 276,
+    "bedrooms": 5,
+    "listedDate": "2025-08-28",
+    "buyer": {
+      "ar": "سالم البلوشي",
+      "en": "Salim Al Balushi"
+    }
+  },
+  {
+    "id": "PR-0081",
+    "districtId": "rimal",
+    "type": "commercial",
+    "typeLabel": {
+      "ar": "تجاري",
+      "en": "Commercial"
+    },
+    "status": "sold",
+    "unitLabel": {
+      "ar": "مكتب F-437",
+      "en": "Office F-437"
+    },
+    "price": 265800,
+    "areaSqm": 413,
+    "listedDate": "2024-05-28",
+    "saleDate": "2024-08-24",
+    "buyer": {
+      "ar": "نورة البلوشي",
+      "en": "Noura Al Balushi"
+    }
+  },
+  {
+    "id": "PR-0082",
+    "districtId": "rimal",
+    "type": "commercial",
+    "typeLabel": {
+      "ar": "تجاري",
+      "en": "Commercial"
+    },
+    "status": "reserved",
+    "unitLabel": {
+      "ar": "مكتب B-454",
+      "en": "Office B-454"
+    },
+    "price": 343300,
+    "areaSqm": 464,
+    "listedDate": "2024-04-04",
+    "buyer": {
+      "ar": "بدر الكندي",
+      "en": "Badr Al Kindi"
+    }
+  },
+  {
+    "id": "PR-0083",
+    "districtId": "rimal",
+    "type": "residential",
+    "typeLabel": {
+      "ar": "سكني",
+      "en": "Residential"
+    },
+    "status": "sold",
+    "unitLabel": {
+      "ar": "شقة C-101",
+      "en": "Apartment C-101"
+    },
+    "price": 115800,
+    "areaSqm": 174,
+    "bedrooms": 2,
+    "listedDate": "2026-06-19",
+    "saleDate": "2026-08-02",
+    "buyer": {
+      "ar": "ماجد السيابي",
+      "en": "Majid Al Siyabi"
+    }
+  },
+  {
+    "id": "PR-0084",
+    "districtId": "rimal",
+    "type": "residential",
+    "typeLabel": {
+      "ar": "سكني",
+      "en": "Residential"
+    },
+    "status": "available",
+    "unitLabel": {
+      "ar": "شقة E-271",
+      "en": "Apartment E-271"
+    },
+    "price": 88300,
+    "areaSqm": 158,
+    "bedrooms": 1,
+    "listedDate": "2024-10-22"
+  },
+  {
+    "id": "PR-0085",
+    "districtId": "rimal",
+    "type": "residential",
+    "typeLabel": {
+      "ar": "سكني",
+      "en": "Residential"
+    },
+    "status": "reserved",
+    "unitLabel": {
+      "ar": "شقة F-433",
+      "en": "Apartment F-433"
+    },
+    "price": 158600,
+    "areaSqm": 229,
+    "bedrooms": 4,
+    "listedDate": "2025-11-12",
+    "buyer": {
+      "ar": "خالد المعمري",
+      "en": "Khalid Al Maamari"
+    }
+  },
+  {
+    "id": "PR-0086",
+    "districtId": "rimal",
+    "type": "land",
+    "typeLabel": {
+      "ar": "أرض",
+      "en": "Land"
+    },
+    "status": "reserved",
+    "unitLabel": {
+      "ar": "قطعة أرض B-125",
+      "en": "Plot B-125"
+    },
+    "price": 108300,
+    "areaSqm": 793,
+    "listedDate": "2025-03-03",
+    "buyer": {
+      "ar": "خالد البلوشي",
+      "en": "Khalid Al Balushi"
+    }
+  },
+  {
+    "id": "PR-0087",
+    "districtId": "rimal",
+    "type": "residential",
+    "typeLabel": {
+      "ar": "سكني",
+      "en": "Residential"
+    },
+    "status": "sold",
+    "unitLabel": {
+      "ar": "شقة E-101",
+      "en": "Apartment E-101"
+    },
+    "price": 100500,
+    "areaSqm": 175,
+    "bedrooms": 2,
+    "listedDate": "2024-04-16",
+    "saleDate": "2026-07-12",
+    "buyer": {
+      "ar": "بدر البلوشي",
+      "en": "Badr Al Balushi"
+    }
+  },
+  {
+    "id": "PR-0088",
+    "districtId": "rimal",
+    "type": "commercial",
+    "typeLabel": {
+      "ar": "تجاري",
+      "en": "Commercial"
+    },
+    "status": "available",
+    "unitLabel": {
+      "ar": "مكتب A-149",
+      "en": "Office A-149"
+    },
+    "price": 195200,
+    "areaSqm": 254,
+    "listedDate": "2025-02-17"
+  },
+  {
+    "id": "PR-0089",
+    "districtId": "rimal",
+    "type": "residential",
+    "typeLabel": {
+      "ar": "سكني",
+      "en": "Residential"
+    },
+    "status": "sold",
+    "unitLabel": {
+      "ar": "شقة F-398",
+      "en": "Apartment F-398"
+    },
+    "price": 131500,
+    "areaSqm": 190,
+    "bedrooms": 3,
+    "listedDate": "2024-07-21",
+    "saleDate": "2025-06-14",
+    "buyer": {
+      "ar": "ريم الشكيلي",
+      "en": "Reem Al Shukaili"
+    }
+  },
+  {
+    "id": "PR-0090",
+    "districtId": "rimal",
+    "type": "commercial",
+    "typeLabel": {
+      "ar": "تجاري",
+      "en": "Commercial"
+    },
+    "status": "reserved",
+    "unitLabel": {
+      "ar": "مكتب E-211",
+      "en": "Office E-211"
+    },
+    "price": 340900,
+    "areaSqm": 470,
+    "listedDate": "2026-04-02",
+    "buyer": {
+      "ar": "بدر المعمري",
+      "en": "Badr Al Maamari"
+    }
+  },
+  {
+    "id": "PR-0091",
+    "districtId": "rimal",
+    "type": "commercial",
+    "typeLabel": {
+      "ar": "تجاري",
+      "en": "Commercial"
+    },
+    "status": "sold",
+    "unitLabel": {
+      "ar": "مكتب E-169",
+      "en": "Office E-169"
+    },
+    "price": 208800,
+    "areaSqm": 283,
+    "listedDate": "2024-12-29",
+    "saleDate": "2025-07-14",
+    "buyer": {
+      "ar": "سالم الرواحي",
+      "en": "Salim Al Rawahi"
+    }
+  },
+  {
+    "id": "PR-0092",
+    "districtId": "rimal",
+    "type": "commercial",
+    "typeLabel": {
+      "ar": "تجاري",
+      "en": "Commercial"
+    },
+    "status": "available",
+    "unitLabel": {
+      "ar": "مكتب E-442",
+      "en": "Office E-442"
+    },
+    "price": 158300,
+    "areaSqm": 182,
+    "listedDate": "2025-04-04"
+  },
+  {
+    "id": "PR-0093",
+    "districtId": "rimal",
+    "type": "residential",
+    "typeLabel": {
+      "ar": "سكني",
+      "en": "Residential"
+    },
+    "status": "available",
+    "unitLabel": {
+      "ar": "شقة C-436",
+      "en": "Apartment C-436"
+    },
+    "price": 80700,
+    "areaSqm": 137,
+    "bedrooms": 1,
+    "listedDate": "2026-03-24"
+  },
+  {
+    "id": "PR-0094",
+    "districtId": "rimal",
+    "type": "residential",
+    "typeLabel": {
+      "ar": "سكني",
+      "en": "Residential"
+    },
+    "status": "available",
+    "unitLabel": {
+      "ar": "شقة F-229",
+      "en": "Apartment F-229"
+    },
+    "price": 154900,
+    "areaSqm": 248,
+    "bedrooms": 4,
+    "listedDate": "2024-12-04"
+  },
+  {
+    "id": "PR-0095",
+    "districtId": "rimal",
+    "type": "residential",
+    "typeLabel": {
+      "ar": "سكني",
+      "en": "Residential"
+    },
+    "status": "available",
+    "unitLabel": {
+      "ar": "شقة A-386",
+      "en": "Apartment A-386"
+    },
+    "price": 145900,
+    "areaSqm": 244,
+    "bedrooms": 4,
+    "listedDate": "2025-12-01"
+  },
+  {
+    "id": "PR-0096",
+    "districtId": "rimal",
+    "type": "residential",
+    "typeLabel": {
+      "ar": "سكني",
+      "en": "Residential"
+    },
+    "status": "reserved",
+    "unitLabel": {
+      "ar": "شقة F-269",
+      "en": "Apartment F-269"
+    },
+    "price": 106000,
+    "areaSqm": 192,
+    "bedrooms": 2,
+    "listedDate": "2024-02-14",
+    "buyer": {
+      "ar": "هدى البلوشي",
+      "en": "Huda Al Balushi"
+    }
+  },
+  {
+    "id": "PR-0097",
+    "districtId": "rimal",
+    "type": "commercial",
+    "typeLabel": {
+      "ar": "تجاري",
+      "en": "Commercial"
+    },
+    "status": "reserved",
+    "unitLabel": {
+      "ar": "مكتب D-342",
+      "en": "Office D-342"
+    },
+    "price": 356200,
+    "areaSqm": 474,
+    "listedDate": "2024-02-06",
+    "buyer": {
+      "ar": "يوسف الهنائي",
+      "en": "Yousuf Al Hinai"
+    }
+  },
+  {
+    "id": "PR-0098",
+    "districtId": "rimal",
+    "type": "residential",
+    "typeLabel": {
+      "ar": "سكني",
+      "en": "Residential"
+    },
+    "status": "reserved",
+    "unitLabel": {
+      "ar": "شقة E-348",
+      "en": "Apartment E-348"
+    },
+    "price": 145900,
+    "areaSqm": 237,
+    "bedrooms": 4,
+    "listedDate": "2026-01-21",
+    "buyer": {
+      "ar": "أحمد الهنائي",
+      "en": "Ahmed Al Hinai"
+    }
+  },
+  {
+    "id": "PR-0099",
+    "districtId": "rimal",
+    "type": "residential",
+    "typeLabel": {
+      "ar": "سكني",
+      "en": "Residential"
+    },
+    "status": "reserved",
+    "unitLabel": {
+      "ar": "شقة D-360",
+      "en": "Apartment D-360"
+    },
+    "price": 159300,
+    "areaSqm": 262,
+    "bedrooms": 5,
+    "listedDate": "2026-07-30",
+    "buyer": {
+      "ar": "ريم الحارثي",
+      "en": "Reem Al Harthy"
+    }
+  },
+  {
+    "id": "PR-0100",
+    "districtId": "rimal",
+    "type": "residential",
+    "typeLabel": {
+      "ar": "سكني",
+      "en": "Residential"
+    },
+    "status": "sold",
+    "unitLabel": {
+      "ar": "شقة C-209",
+      "en": "Apartment C-209"
+    },
+    "price": 114400,
+    "areaSqm": 184,
+    "bedrooms": 2,
+    "listedDate": "2025-08-16",
+    "saleDate": "2026-01-06",
+    "buyer": {
+      "ar": "سالم الرواحي",
+      "en": "Salim Al Rawahi"
+    }
+  },
+  {
+    "id": "PR-0101",
+    "districtId": "rimal",
+    "type": "residential",
+    "typeLabel": {
+      "ar": "سكني",
+      "en": "Residential"
+    },
+    "status": "available",
+    "unitLabel": {
+      "ar": "شقة D-455",
+      "en": "Apartment D-455"
+    },
+    "price": 90100,
+    "areaSqm": 143,
+    "bedrooms": 1,
+    "listedDate": "2024-03-04"
+  },
+  {
+    "id": "PR-0102",
+    "districtId": "rimal",
+    "type": "residential",
+    "typeLabel": {
+      "ar": "سكني",
+      "en": "Residential"
+    },
+    "status": "reserved",
+    "unitLabel": {
+      "ar": "شقة A-235",
+      "en": "Apartment A-235"
+    },
+    "price": 84000,
+    "areaSqm": 149,
+    "bedrooms": 1,
+    "listedDate": "2024-12-15",
+    "buyer": {
+      "ar": "ريم الكندي",
+      "en": "Reem Al Kindi"
+    }
+  },
+  {
+    "id": "PR-0103",
+    "districtId": "rimal",
+    "type": "commercial",
+    "typeLabel": {
+      "ar": "تجاري",
+      "en": "Commercial"
+    },
+    "status": "reserved",
+    "unitLabel": {
+      "ar": "مكتب A-288",
+      "en": "Office A-288"
+    },
+    "price": 144300,
+    "areaSqm": 151,
+    "listedDate": "2025-06-18",
+    "buyer": {
+      "ar": "نورة الهنائي",
+      "en": "Noura Al Hinai"
+    }
+  },
+  {
+    "id": "PR-0104",
+    "districtId": "rimal",
+    "type": "residential",
+    "typeLabel": {
+      "ar": "سكني",
+      "en": "Residential"
+    },
+    "status": "available",
+    "unitLabel": {
+      "ar": "شقة E-292",
+      "en": "Apartment E-292"
+    },
+    "price": 176100,
+    "areaSqm": 266,
+    "bedrooms": 5,
+    "listedDate": "2024-10-12"
+  },
+  {
+    "id": "PR-0105",
+    "districtId": "rimal",
+    "type": "land",
+    "typeLabel": {
+      "ar": "أرض",
+      "en": "Land"
+    },
+    "status": "available",
+    "unitLabel": {
+      "ar": "قطعة أرض A-447",
+      "en": "Plot A-447"
+    },
+    "price": 104100,
+    "areaSqm": 685,
+    "listedDate": "2025-04-28"
+  },
+  {
+    "id": "PR-0106",
+    "districtId": "rimal",
+    "type": "commercial",
+    "typeLabel": {
+      "ar": "تجاري",
+      "en": "Commercial"
+    },
+    "status": "sold",
+    "unitLabel": {
+      "ar": "مكتب D-453",
+      "en": "Office D-453"
+    },
+    "price": 218000,
+    "areaSqm": 233,
+    "listedDate": "2024-06-17",
+    "saleDate": "2025-12-18",
+    "buyer": {
+      "ar": "يوسف الشكيلي",
+      "en": "Yousuf Al Shukaili"
+    }
+  },
+  {
+    "id": "PR-0107",
+    "districtId": "rimal",
+    "type": "land",
+    "typeLabel": {
+      "ar": "أرض",
+      "en": "Land"
+    },
+    "status": "sold",
+    "unitLabel": {
+      "ar": "قطعة أرض A-401",
+      "en": "Plot A-401"
+    },
+    "price": 115600,
+    "areaSqm": 931,
+    "listedDate": "2025-07-25",
+    "saleDate": "2025-12-26",
+    "buyer": {
+      "ar": "مريم الكندي",
+      "en": "Maryam Al Kindi"
+    }
+  },
+  {
+    "id": "PR-0108",
+    "districtId": "rimal",
+    "type": "residential",
+    "typeLabel": {
+      "ar": "سكني",
+      "en": "Residential"
+    },
+    "status": "sold",
+    "unitLabel": {
+      "ar": "شقة B-221",
+      "en": "Apartment B-221"
+    },
+    "price": 77000,
+    "areaSqm": 123,
+    "bedrooms": 1,
+    "listedDate": "2024-08-28",
+    "saleDate": "2025-07-22",
+    "buyer": {
+      "ar": "مريم الشكيلي",
+      "en": "Maryam Al Shukaili"
+    }
+  },
+  {
+    "id": "PR-0109",
+    "districtId": "rimal",
+    "type": "land",
+    "typeLabel": {
+      "ar": "أرض",
+      "en": "Land"
+    },
+    "status": "available",
+    "unitLabel": {
+      "ar": "قطعة أرض A-134",
+      "en": "Plot A-134"
+    },
+    "price": 102100,
+    "areaSqm": 746,
+    "listedDate": "2025-09-05"
+  },
+  {
+    "id": "PR-0110",
+    "districtId": "rimal",
+    "type": "land",
+    "typeLabel": {
+      "ar": "أرض",
+      "en": "Land"
+    },
+    "status": "available",
+    "unitLabel": {
+      "ar": "قطعة أرض D-476",
+      "en": "Plot D-476"
+    },
+    "price": 94200,
+    "areaSqm": 700,
+    "listedDate": "2026-02-08"
+  },
+  {
+    "id": "PR-0111",
+    "districtId": "rimal",
+    "type": "land",
+    "typeLabel": {
+      "ar": "أرض",
+      "en": "Land"
+    },
+    "status": "reserved",
+    "unitLabel": {
+      "ar": "قطعة أرض D-247",
+      "en": "Plot D-247"
+    },
+    "price": 127400,
+    "areaSqm": 1147,
+    "listedDate": "2025-03-27",
+    "buyer": {
+      "ar": "فاطمة الشكيلي",
+      "en": "Fatma Al Shukaili"
+    }
+  },
+  {
+    "id": "PR-0112",
+    "districtId": "rimal",
+    "type": "residential",
+    "typeLabel": {
+      "ar": "سكني",
+      "en": "Residential"
+    },
+    "status": "sold",
+    "unitLabel": {
+      "ar": "شقة B-177",
+      "en": "Apartment B-177"
+    },
+    "price": 77700,
+    "areaSqm": 122,
+    "bedrooms": 1,
+    "listedDate": "2026-07-03",
+    "saleDate": "2026-08-18",
+    "buyer": {
+      "ar": "هدى الشكيلي",
+      "en": "Huda Al Shukaili"
+    }
+  },
+  {
+    "id": "PR-0113",
+    "districtId": "rimal",
+    "type": "land",
+    "typeLabel": {
+      "ar": "أرض",
+      "en": "Land"
+    },
+    "status": "available",
+    "unitLabel": {
+      "ar": "قطعة أرض E-202",
+      "en": "Plot E-202"
+    },
+    "price": 76200,
+    "areaSqm": 570,
+    "listedDate": "2026-01-23"
+  },
+  {
+    "id": "PR-0114",
+    "districtId": "rimal",
+    "type": "commercial",
+    "typeLabel": {
+      "ar": "تجاري",
+      "en": "Commercial"
+    },
+    "status": "sold",
+    "unitLabel": {
+      "ar": "مكتب A-343",
+      "en": "Office A-343"
+    },
+    "price": 267400,
+    "areaSqm": 314,
+    "listedDate": "2024-07-16",
+    "saleDate": "2026-07-31",
+    "buyer": {
+      "ar": "بدر الشكيلي",
+      "en": "Badr Al Shukaili"
+    }
+  },
+  {
+    "id": "PR-0115",
+    "districtId": "rimal",
+    "type": "residential",
+    "typeLabel": {
+      "ar": "سكني",
+      "en": "Residential"
+    },
+    "status": "reserved",
+    "unitLabel": {
+      "ar": "شقة B-311",
+      "en": "Apartment B-311"
+    },
+    "price": 174300,
+    "areaSqm": 262,
+    "bedrooms": 5,
+    "listedDate": "2025-09-24",
+    "buyer": {
+      "ar": "هدى المعمري",
+      "en": "Huda Al Maamari"
+    }
+  },
+  {
+    "id": "PR-0116",
+    "districtId": "nahda",
+    "type": "residential",
+    "typeLabel": {
+      "ar": "سكني",
+      "en": "Residential"
+    },
+    "status": "sold",
+    "unitLabel": {
+      "ar": "شقة A-338",
+      "en": "Apartment A-338"
+    },
+    "price": 98300,
+    "areaSqm": 155,
+    "bedrooms": 2,
+    "listedDate": "2026-02-25",
+    "saleDate": "2026-04-13",
+    "buyer": {
+      "ar": "سالم السيابي",
+      "en": "Salim Al Siyabi"
+    }
+  },
+  {
+    "id": "PR-0117",
+    "districtId": "nahda",
+    "type": "residential",
+    "typeLabel": {
+      "ar": "سكني",
+      "en": "Residential"
+    },
+    "status": "available",
+    "unitLabel": {
+      "ar": "شقة B-409",
+      "en": "Apartment B-409"
+    },
+    "price": 139300,
+    "areaSqm": 225,
+    "bedrooms": 4,
+    "listedDate": "2026-04-02"
+  },
+  {
+    "id": "PR-0118",
+    "districtId": "nahda",
+    "type": "residential",
+    "typeLabel": {
+      "ar": "سكني",
+      "en": "Residential"
+    },
+    "status": "sold",
+    "unitLabel": {
+      "ar": "شقة E-317",
+      "en": "Apartment E-317"
+    },
+    "price": 145600,
+    "areaSqm": 236,
+    "bedrooms": 4,
+    "listedDate": "2026-04-03",
+    "saleDate": "2026-07-27",
+    "buyer": {
+      "ar": "نورة الشكيلي",
+      "en": "Noura Al Shukaili"
+    }
+  },
+  {
+    "id": "PR-0119",
+    "districtId": "nahda",
+    "type": "residential",
+    "typeLabel": {
+      "ar": "سكني",
+      "en": "Residential"
+    },
+    "status": "available",
+    "unitLabel": {
+      "ar": "شقة C-310",
+      "en": "Apartment C-310"
+    },
+    "price": 178500,
+    "areaSqm": 287,
+    "bedrooms": 5,
+    "listedDate": "2026-02-25"
+  },
+  {
+    "id": "PR-0120",
+    "districtId": "nahda",
+    "type": "residential",
+    "typeLabel": {
+      "ar": "سكني",
+      "en": "Residential"
+    },
+    "status": "reserved",
+    "unitLabel": {
+      "ar": "شقة B-233",
+      "en": "Apartment B-233"
+    },
+    "price": 155400,
+    "areaSqm": 243,
+    "bedrooms": 4,
+    "listedDate": "2026-03-26",
+    "buyer": {
+      "ar": "يوسف الهنائي",
+      "en": "Yousuf Al Hinai"
+    }
+  },
+  {
+    "id": "PR-0121",
+    "districtId": "nahda",
+    "type": "residential",
+    "typeLabel": {
+      "ar": "سكني",
+      "en": "Residential"
+    },
+    "status": "reserved",
+    "unitLabel": {
+      "ar": "شقة B-138",
+      "en": "Apartment B-138"
+    },
+    "price": 94600,
+    "areaSqm": 152,
+    "bedrooms": 1,
+    "listedDate": "2026-03-13",
+    "buyer": {
+      "ar": "ريم السيابي",
+      "en": "Reem Al Siyabi"
+    }
+  },
+  {
+    "id": "PR-0122",
+    "districtId": "nahda",
+    "type": "residential",
+    "typeLabel": {
+      "ar": "سكني",
+      "en": "Residential"
+    },
+    "status": "sold",
+    "unitLabel": {
+      "ar": "شقة F-336",
+      "en": "Apartment F-336"
+    },
+    "price": 144200,
+    "areaSqm": 239,
+    "bedrooms": 4,
+    "listedDate": "2026-01-11",
+    "saleDate": "2026-09-18",
+    "buyer": {
+      "ar": "أحمد الهنائي",
+      "en": "Ahmed Al Hinai"
+    }
+  },
+  {
+    "id": "PR-0123",
+    "districtId": "nahda",
+    "type": "commercial",
+    "typeLabel": {
+      "ar": "تجاري",
+      "en": "Commercial"
+    },
+    "status": "available",
+    "unitLabel": {
+      "ar": "مكتب F-196",
+      "en": "Office F-196"
+    },
+    "price": 198600,
+    "areaSqm": 228,
+    "listedDate": "2026-01-05"
+  },
+  {
+    "id": "PR-0124",
+    "districtId": "nahda",
+    "type": "commercial",
+    "typeLabel": {
+      "ar": "تجاري",
+      "en": "Commercial"
+    },
+    "status": "reserved",
+    "unitLabel": {
+      "ar": "مكتب C-152",
+      "en": "Office C-152"
+    },
+    "price": 149700,
+    "areaSqm": 136,
+    "listedDate": "2026-04-18",
+    "buyer": {
+      "ar": "بدر البلوشي",
+      "en": "Badr Al Balushi"
+    }
+  },
+  {
+    "id": "PR-0125",
+    "districtId": "nahda",
+    "type": "residential",
+    "typeLabel": {
+      "ar": "سكني",
+      "en": "Residential"
+    },
+    "status": "reserved",
+    "unitLabel": {
+      "ar": "شقة C-116",
+      "en": "Apartment C-116"
+    },
+    "price": 142400,
+    "areaSqm": 219,
+    "bedrooms": 4,
+    "listedDate": "2026-02-14",
+    "buyer": {
+      "ar": "هدى السيابي",
+      "en": "Huda Al Siyabi"
+    }
+  },
+  {
+    "id": "PR-0126",
+    "districtId": "nahda",
+    "type": "residential",
+    "typeLabel": {
+      "ar": "سكني",
+      "en": "Residential"
+    },
+    "status": "available",
+    "unitLabel": {
+      "ar": "شقة B-220",
+      "en": "Apartment B-220"
+    },
+    "price": 95100,
+    "areaSqm": 151,
+    "bedrooms": 1,
+    "listedDate": "2026-02-07"
+  },
+  {
+    "id": "PR-0127",
+    "districtId": "nahda",
+    "type": "residential",
+    "typeLabel": {
+      "ar": "سكني",
+      "en": "Residential"
+    },
+    "status": "reserved",
+    "unitLabel": {
+      "ar": "شقة A-354",
+      "en": "Apartment A-354"
+    },
+    "price": 90300,
+    "areaSqm": 161,
+    "bedrooms": 1,
+    "listedDate": "2026-06-18",
+    "buyer": {
+      "ar": "ماجد الرواحي",
+      "en": "Majid Al Rawahi"
+    }
+  },
+  {
+    "id": "PR-0128",
+    "districtId": "nahda",
+    "type": "residential",
+    "typeLabel": {
+      "ar": "سكني",
+      "en": "Residential"
+    },
+    "status": "sold",
+    "unitLabel": {
+      "ar": "شقة C-154",
+      "en": "Apartment C-154"
+    },
+    "price": 82800,
+    "areaSqm": 160,
+    "bedrooms": 1,
+    "listedDate": "2026-01-30",
+    "saleDate": "2026-05-09",
+    "buyer": {
+      "ar": "مريم الكندي",
+      "en": "Maryam Al Kindi"
+    }
+  },
+  {
+    "id": "PR-0129",
+    "districtId": "nahda",
+    "type": "residential",
+    "typeLabel": {
+      "ar": "سكني",
+      "en": "Residential"
+    },
+    "status": "sold",
+    "unitLabel": {
+      "ar": "شقة E-402",
+      "en": "Apartment E-402"
+    },
+    "price": 100700,
+    "areaSqm": 178,
+    "bedrooms": 2,
+    "listedDate": "2026-04-21",
+    "saleDate": "2026-07-14",
+    "buyer": {
+      "ar": "بدر المعمري",
+      "en": "Badr Al Maamari"
+    }
+  },
+  {
+    "id": "PR-0130",
+    "districtId": "nahda",
+    "type": "land",
+    "typeLabel": {
+      "ar": "أرض",
+      "en": "Land"
+    },
+    "status": "available",
+    "unitLabel": {
+      "ar": "قطعة أرض C-381",
+      "en": "Plot C-381"
+    },
+    "price": 106900,
+    "areaSqm": 735,
+    "listedDate": "2026-01-18"
+  },
+  {
+    "id": "PR-0131",
+    "districtId": "nahda",
+    "type": "residential",
+    "typeLabel": {
+      "ar": "سكني",
+      "en": "Residential"
+    },
+    "status": "available",
+    "unitLabel": {
+      "ar": "شقة F-128",
+      "en": "Apartment F-128"
+    },
+    "price": 136400,
+    "areaSqm": 223,
+    "bedrooms": 3,
+    "listedDate": "2026-06-09"
+  },
+  {
+    "id": "PR-0132",
+    "districtId": "nahda",
+    "type": "residential",
+    "typeLabel": {
+      "ar": "سكني",
+      "en": "Residential"
+    },
+    "status": "sold",
+    "unitLabel": {
+      "ar": "شقة E-346",
+      "en": "Apartment E-346"
+    },
+    "price": 164300,
+    "areaSqm": 269,
+    "bedrooms": 5,
+    "listedDate": "2026-02-19",
+    "saleDate": "2026-09-07",
+    "buyer": {
+      "ar": "أحمد السيابي",
+      "en": "Ahmed Al Siyabi"
+    }
+  },
+  {
+    "id": "PR-0133",
+    "districtId": "nahda",
+    "type": "commercial",
+    "typeLabel": {
+      "ar": "تجاري",
+      "en": "Commercial"
+    },
+    "status": "sold",
+    "unitLabel": {
+      "ar": "مكتب A-313",
+      "en": "Office A-313"
+    },
+    "price": 180100,
+    "areaSqm": 228,
+    "listedDate": "2026-03-27",
+    "saleDate": "2026-04-15",
+    "buyer": {
+      "ar": "نورة البلوشي",
+      "en": "Noura Al Balushi"
+    }
+  },
+  {
+    "id": "PR-0134",
+    "districtId": "nahda",
+    "type": "commercial",
+    "typeLabel": {
+      "ar": "تجاري",
+      "en": "Commercial"
+    },
+    "status": "sold",
+    "unitLabel": {
+      "ar": "مكتب A-395",
+      "en": "Office A-395"
+    },
+    "price": 301600,
+    "areaSqm": 386,
+    "listedDate": "2026-04-02",
+    "saleDate": "2026-08-23",
+    "buyer": {
+      "ar": "ريم السيابي",
+      "en": "Reem Al Siyabi"
+    }
+  },
+  {
+    "id": "PR-0135",
+    "districtId": "nahda",
+    "type": "commercial",
+    "typeLabel": {
+      "ar": "تجاري",
+      "en": "Commercial"
+    },
+    "status": "sold",
+    "unitLabel": {
+      "ar": "مكتب B-408",
+      "en": "Office B-408"
+    },
+    "price": 258400,
+    "areaSqm": 369,
+    "listedDate": "2026-05-18",
+    "saleDate": "2026-09-05",
+    "buyer": {
+      "ar": "نورة الهنائي",
+      "en": "Noura Al Hinai"
+    }
+  }
+]
