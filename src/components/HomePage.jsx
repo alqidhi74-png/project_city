@@ -1,4 +1,5 @@
 import { useEffect, useRef, useState } from "react";
+import { useNavigate } from "react-router-dom";
 import {
   ArrowLeft,
   Globe2,
@@ -21,6 +22,7 @@ import "../style/HomePage.css";
 gsap.registerPlugin(ScrollTrigger);
 
 function HomePage() {
+  const navigate = useNavigate();
   const [menuOpen, setMenuOpen] = useState(false);
 
   const pageRef = useRef(null);
@@ -281,7 +283,7 @@ function HomePage() {
               <span>EN</span>
             </button>
 
-            <button className="login-button">
+            <button className="login-button" onClick={() => navigate("/login")}>
               <UserRound size={18} />
               <span>تسجيل الدخول</span>
             </button>
