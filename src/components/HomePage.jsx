@@ -4,7 +4,6 @@ import {
   ArrowLeft,
   Globe2,
   Menu,
-  Search,
   UserRound,
   X,
 } from "lucide-react";
@@ -17,6 +16,8 @@ import "lenis/dist/lenis.css";
 import HomePageSections from "./HomePageSections";
 
 import heroCity from "../assets/images/hero-city.png";
+import sultanImage from "../assets/images/Sultan.png";
+import cityLogo from "../assets/images/logo.png";
 import "../style/HomePage.css";
 
 gsap.registerPlugin(ScrollTrigger);
@@ -56,8 +57,7 @@ function HomePage() {
 
     const context = gsap.context(() => {
       if (reducedMotion) {
-        gsap.set(".intro-word, .intro-subtitle", { opacity: 1, y: 0 });
-        gsap.set(".intro-line", { scaleX: 1 });
+        gsap.set(".intro-visual", { opacity: 1, scale: 1 });
         const fade = gsap.timeline({ paused: true }).to(introRef.current, {
           autoAlpha: 0,
           duration: 0.2,
@@ -76,25 +76,33 @@ function HomePage() {
       });
 
       timeline
-        .to(".intro-line", {
-          scaleX: 1,
-          duration: 1,
-        })
-        .to(
-          ".intro-word",
+        .fromTo(
+          ".intro-visual",
           {
-            y: 0,
-            opacity: 1,
-            stagger: 0.3,
-            duration: 0.8,
+            scale: 0.9,
+            opacity: 0,
+            filter: "blur(18px)",
           },
-          "-=0.55"
+          {
+            scale: 1,
+            opacity: 1,
+            filter: "blur(0px)",
+            duration: 1.2,
+          }
         )
-        .to(".intro-subtitle", {
-          opacity: 1,
-          y: 0,
-          duration: 0.4,
-        }, "-=0.4")
+        .to(
+          ".intro-visual img",
+          {
+            y: -12,
+            x: 6,
+            scale: 1.06,
+            duration: 2.2,
+            ease: "sine.inOut",
+            repeat: -1,
+            yoyo: true,
+          },
+          "-=0.8"
+        )
         .to(introRef.current, {
           yPercent: -100,
           duration: 1.15,
@@ -215,17 +223,9 @@ function HomePage() {
   return (
     <main ref={pageRef} className="homepage" dir="rtl">
       <div ref={introRef} className="intro-screen">
-        <div className="intro-mark">SHC</div>
-
-        <div className="intro-title" dir="rtl" aria-label="مدينة السلطان هيثم">
-          <span className="intro-word">مدينة</span>
-          <span className="intro-word intro-word-gold">السلطان</span>
-          <span className="intro-word">هيثم</span>
-        </div>
-
-        <div className="intro-details">
-          <div className="intro-line" />
-          <p className="intro-subtitle">بوابة مدينة ذكية لمستقبل أكثر استدامة</p>
+        <div className="intro-visual">
+          <img src={sultanImage} alt="السلطان" className="intro-portrait" />
+          <div className="intro-glow" aria-hidden="true" />
         </div>
       </div>
 
@@ -243,17 +243,7 @@ function HomePage() {
 
         <header className="navbar">
           <a href="#home" className="brand" aria-label="الصفحة الرئيسية">
-            <div className="brand-symbol">
-              <span />
-              <span />
-              <span />
-              <span />
-            </div>
-
-            <div className="brand-text">
-              <strong>مدينة السلطان هيثم</strong>
-              <small>SULTAN HAITHAM CITY</small>
-            </div>
+            <img src={cityLogo} alt="شعار المدينة" className="brand-logo" />
           </a>
 
           <nav className={`nav-links ${menuOpen ? "is-open" : ""}`}>
@@ -274,10 +264,6 @@ function HomePage() {
           </nav>
 
           <div className="nav-actions">
-            <button className="nav-icon" aria-label="البحث">
-              <Search size={19} />
-            </button>
-
             <button className="language-button">
               <Globe2 size={18} />
               <span>EN</span>
@@ -296,19 +282,16 @@ function HomePage() {
               <Menu size={25} />
             </button>
           </div>
+
         </header>
 
         <div ref={heroContentRef} className="hero-content" id="home">
-          <p className="hero-eyebrow">
-            بوابة مدينة السلطان هيثم الذكية
-          </p>
-
-          <h1 className="hero-title">
+          <h1 className="hero-title hero-title-white">
             <span className="hero-title-line">
               <span>مدينة تُبنى للإنسان</span>
             </span>
 
-            <span className="hero-title-line hero-title-accent">
+            <span className="hero-title-line hero-title-accent hero-title-white">
               <span>وتُصمم للمستقبل</span>
             </span>
           </h1>
@@ -328,24 +311,6 @@ function HomePage() {
               اكتشف المشاريع
             </a>
           </div>
-        </div>
-
-        <div ref={searchRef} className="hero-search">
-          <div className="search-copy">
-            <small>البحث الموحد</small>
-            <strong>كل ما تحتاجه في مكان واحد</strong>
-          </div>
-
-          <div className="search-field">
-            <Search size={22} />
-            <input
-              type="search"
-              placeholder="ابحث عن خدمة، مشروع، عقار أو موقع"
-              aria-label="البحث في المنصة"
-            />
-          </div>
-
-          <button className="search-button">ابحث الآن</button>
         </div>
 
         <a href="#explore" className="scroll-indicator">

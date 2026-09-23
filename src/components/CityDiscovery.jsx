@@ -58,8 +58,11 @@ export default function CityDiscovery() {
         const layers = select(".discovery-image-layer");
         const captions = select(".discovery-caption");
         const options = select(".discovery-option");
+        const visual = select(".discovery-visual");
+        const scanLine = select(".discovery-scan-line");
         gsap.set(layers, { clipPath: masks[0] });
         gsap.set(select(".discovery-frame"), { clipPath: masks[0] });
+        gsap.set(visual, { transformPerspective: 1200, transformOrigin: "50% 50%" });
         gsap.set(layers.slice(1), { autoAlpha: 0 });
         gsap.set(layers[0], { autoAlpha: 1 });
         gsap.set(captions, { autoAlpha: 0, y: 0 });
@@ -79,9 +82,11 @@ export default function CityDiscovery() {
           }); },
         });
         timeline
-          .to(select(".discovery-depth-back"), { y: -12, x: 5, duration: 3, ease: "none" }, 0)
-          .to(select(".discovery-depth-front"), { y: -22, x: 9, duration: 3, ease: "none" }, 0)
-          .to(select(".discovery-topography"), { y: -12, duration: 3, ease: "none" }, 0);
+          .to(select(".discovery-depth-back"), { y: -42, x: 34, rotation: -8, scale: 0.9, duration: 3, ease: "none" }, 0)
+          .to(select(".discovery-depth-front"), { y: -26, x: 18, rotation: -4, scale: 0.96, duration: 3, ease: "none" }, 0)
+          .to(select(".discovery-topography"), { y: -34, duration: 3, ease: "none" }, 0)
+          .to(visual, { rotationY: -14, rotationX: 8, scale: 1.08, duration: 3, ease: "none" }, 0)
+          .to(scanLine, { yPercent: 900, duration: 3, ease: "none" }, 0);
         for (let index = 1; index < scenes.length; index += 1) {
           const at = index;
           // Sequential fades remain reversible and share one transition window.
@@ -129,6 +134,7 @@ export default function CityDiscovery() {
       </header>
 
       <div className="discovery-visual" style={{ "--discovery-mask": masks[0] }}>
+        <span className="discovery-scan-line" aria-hidden="true" />
         <div className="discovery-depth discovery-depth-back" aria-hidden="true"><img src={residential} alt="" /></div>
         <div className="discovery-depth discovery-depth-front" aria-hidden="true"><img src={residential} alt="" /></div>
         <div className="discovery-frame">
