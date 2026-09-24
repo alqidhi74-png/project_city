@@ -1,0 +1,86 @@
+[
+  {
+    "id": "population",
+    "label": {
+      "ar": "عدد السكان",
+      "en": "Residents"
+    },
+    "unit": {
+      "ar": "نسمة",
+      "en": "residents"
+    },
+    "metric": "population",
+    "aggregate": "sum",
+    "periodFactor": {
+      "today": 1,
+      "week": 1,
+      "month": 1,
+      "year": 1
+    },
+    "precision": 0,
+    "goodWhen": "up"
+  },
+  {
+    "id": "energy",
+    "label": {
+      "ar": "استهلاك الطاقة",
+      "en": "Energy use"
+    },
+    "unit": {
+      "ar": "ميغاواط/ساعة",
+      "en": "MWh"
+    },
+    "metric": "energy",
+    "aggregate": "sum",
+    "periodFactor": {
+      "today": 0.00274,
+      "week": 0.01918,
+      "month": 0.08333,
+      "year": 1
+    },
+    "precision": 0,
+    "goodWhen": "down"
+  },
+  {
+    "id": "water",
+    "label": {
+      "ar": "استهلاك المياه",
+      "en": "Water use"
+    },
+    "unit": {
+      "ar": "ألف م³",
+      "en": "k m³"
+    },
+    "metric": "water",
+    "aggregate": "sum",
+    "periodFactor": {
+      "today": 0.00274,
+      "week": 0.01918,
+      "month": 0.08333,
+      "year": 1
+    },
+    "precision": 1,
+    "goodWhen": "down"
+  },
+  {
+    "id": "requests",
+    "label": {
+      "ar": "طلبات الخدمة",
+      "en": "Service requests"
+    },
+    "unit": {
+      "ar": "طلب",
+      "en": "requests"
+    },
+    "metric": "requests",
+    "aggregate": "sum",
+    "periodFactor": {
+      "today": 0.00274,
+      "week": 0.01918,
+      "month": 0.08333,
+      "year": 1
+    },
+    "precision": 0,
+    "goodWhen": "down"
+  }
+]

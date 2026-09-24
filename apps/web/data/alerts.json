@@ -1,0 +1,296 @@
+[
+  {
+    "id": "a-traffic-1",
+    "category": "traffic",
+    "severity": "warning",
+    "title": {
+      "ar": "ازدحام على المحور الرئيسي",
+      "en": "Congestion on the main corridor"
+    },
+    "message": {
+      "ar": "ارتفع زمن الرحلة على المحور الرئيسي بنسبة ٣٤٪ خلال آخر ٢٠ دقيقة.",
+      "en": "Travel time on the main corridor rose 34% in the last 20 minutes."
+    },
+    "districts": [
+      "waha",
+      "rimal",
+      "nahda",
+      "sidra",
+      "fanar",
+      "marjan"
+    ]
+  },
+  {
+    "id": "a-traffic-2",
+    "category": "traffic",
+    "severity": "info",
+    "title": {
+      "ar": "إغلاق مؤقت لمسار",
+      "en": "Temporary lane closure"
+    },
+    "message": {
+      "ar": "أُغلق مسار واحد لأعمال صيانة حتى الساعة ١٦:٠٠.",
+      "en": "One lane closed for maintenance until 16:00."
+    },
+    "districts": [
+      "waha",
+      "rimal",
+      "nahda",
+      "sidra",
+      "fanar",
+      "marjan"
+    ]
+  },
+  {
+    "id": "a-traffic-3",
+    "category": "traffic",
+    "severity": "critical",
+    "title": {
+      "ar": "حادث مروري",
+      "en": "Road incident"
+    },
+    "message": {
+      "ar": "حادث مروري يعيق حركة السير عند التقاطع الشمالي.",
+      "en": "A collision is blocking traffic at the north junction."
+    },
+    "districts": [
+      "waha",
+      "rimal",
+      "nahda",
+      "sidra",
+      "fanar",
+      "marjan"
+    ]
+  },
+  {
+    "id": "a-air-1",
+    "category": "air",
+    "severity": "warning",
+    "title": {
+      "ar": "انخفاض جودة الهواء",
+      "en": "Air quality dip"
+    },
+    "message": {
+      "ar": "تجاوز تركيز الجسيمات الدقيقة الحد الموصى به.",
+      "en": "Fine particulate levels exceeded the recommended threshold."
+    },
+    "districts": [
+      "waha",
+      "rimal",
+      "nahda",
+      "sidra",
+      "fanar",
+      "marjan"
+    ]
+  },
+  {
+    "id": "a-air-2",
+    "category": "air",
+    "severity": "info",
+    "title": {
+      "ar": "غبار عالق",
+      "en": "Airborne dust"
+    },
+    "message": {
+      "ar": "رياح محمّلة بالغبار تؤثر على القراءات مؤقتًا.",
+      "en": "Dust-laden winds are temporarily affecting readings."
+    },
+    "districts": [
+      "waha",
+      "rimal",
+      "nahda",
+      "sidra",
+      "fanar",
+      "marjan"
+    ]
+  },
+  {
+    "id": "a-air-3",
+    "category": "air",
+    "severity": "critical",
+    "title": {
+      "ar": "تحذير صحي",
+      "en": "Health advisory"
+    },
+    "message": {
+      "ar": "يُنصح بتقليل الأنشطة الخارجية في هذا الحي.",
+      "en": "Outdoor activity should be reduced in this district."
+    },
+    "districts": [
+      "waha",
+      "rimal",
+      "nahda",
+      "sidra",
+      "fanar",
+      "marjan"
+    ]
+  },
+  {
+    "id": "a-energy-1",
+    "category": "energy",
+    "severity": "warning",
+    "title": {
+      "ar": "ذروة في الحمل الكهربائي",
+      "en": "Peak electrical load"
+    },
+    "message": {
+      "ar": "بلغ الحمل ٩٢٪ من الطاقة المتاحة للمحوّل.",
+      "en": "Load reached 92% of available transformer capacity."
+    },
+    "districts": [
+      "waha",
+      "rimal",
+      "nahda",
+      "sidra",
+      "fanar",
+      "marjan"
+    ]
+  },
+  {
+    "id": "a-energy-2",
+    "category": "energy",
+    "severity": "critical",
+    "title": {
+      "ar": "انقطاع في التغذية",
+      "en": "Supply interruption"
+    },
+    "message": {
+      "ar": "انقطاع غير مخطط يؤثر على عدة مبانٍ.",
+      "en": "An unplanned outage is affecting several buildings."
+    },
+    "districts": [
+      "waha",
+      "rimal",
+      "nahda",
+      "sidra",
+      "fanar",
+      "marjan"
+    ]
+  },
+  {
+    "id": "a-energy-3",
+    "category": "energy",
+    "severity": "info",
+    "title": {
+      "ar": "إنتاج شمسي قياسي",
+      "en": "Record solar output"
+    },
+    "message": {
+      "ar": "سجّلت الألواح الشمسية أعلى إنتاج يومي هذا الشهر.",
+      "en": "Rooftop solar recorded its highest daily output this month."
+    },
+    "districts": [
+      "waha",
+      "rimal",
+      "nahda",
+      "sidra",
+      "fanar",
+      "marjan"
+    ]
+  },
+  {
+    "id": "a-water-1",
+    "category": "water",
+    "severity": "warning",
+    "title": {
+      "ar": "انخفاض ضغط المياه",
+      "en": "Low water pressure"
+    },
+    "message": {
+      "ar": "انخفاض ملحوظ في ضغط الشبكة بالقطاع الشرقي.",
+      "en": "A noticeable pressure drop in the eastern sector."
+    },
+    "districts": [
+      "waha",
+      "rimal",
+      "nahda",
+      "sidra",
+      "fanar",
+      "marjan"
+    ]
+  },
+  {
+    "id": "a-water-2",
+    "category": "water",
+    "severity": "critical",
+    "title": {
+      "ar": "تسرب رئيسي",
+      "en": "Main line leak"
+    },
+    "message": {
+      "ar": "تسرب في خط ناقل يتطلب تدخلًا فوريًا.",
+      "en": "A transmission main leak requires immediate intervention."
+    },
+    "districts": [
+      "waha",
+      "rimal",
+      "nahda",
+      "sidra",
+      "fanar",
+      "marjan"
+    ]
+  },
+  {
+    "id": "a-water-3",
+    "category": "water",
+    "severity": "info",
+    "title": {
+      "ar": "اكتمال الصيانة",
+      "en": "Maintenance complete"
+    },
+    "message": {
+      "ar": "انتهت أعمال صيانة الخزان وعادت الخدمة لطبيعتها.",
+      "en": "Reservoir maintenance finished and service is normal."
+    },
+    "districts": [
+      "waha",
+      "rimal",
+      "nahda",
+      "sidra",
+      "fanar",
+      "marjan"
+    ]
+  },
+  {
+    "id": "a-security-1",
+    "category": "security",
+    "severity": "info",
+    "title": {
+      "ar": "دورية إضافية",
+      "en": "Additional patrol"
+    },
+    "message": {
+      "ar": "تم تعزيز الدوريات في المنطقة التجارية.",
+      "en": "Patrols have been increased in the commercial area."
+    },
+    "districts": [
+      "waha",
+      "rimal",
+      "nahda",
+      "sidra",
+      "fanar",
+      "marjan"
+    ]
+  },
+  {
+    "id": "a-security-2",
+    "category": "security",
+    "severity": "warning",
+    "title": {
+      "ar": "إنذار حريق",
+      "en": "Fire alarm"
+    },
+    "message": {
+      "ar": "تفعيل إنذار حريق في مبنى خدمي، الفرق في الموقع.",
+      "en": "A fire alarm was triggered at a service building; crews on site."
+    },
+    "districts": [
+      "waha",
+      "rimal",
+      "nahda",
+      "sidra",
+      "fanar",
+      "marjan"
+    ]
+  }
+]

@@ -1,0 +1,302 @@
+[
+  {
+    "id": "q-water-high",
+    "compute": "highestWater",
+    "keywords": {
+      "ar": [
+        "اكثر",
+        "اعلى",
+        "مياه",
+        "ماء",
+        "استهلاك"
+      ],
+      "en": [
+        "most",
+        "highest",
+        "water",
+        "usage",
+        "consumption"
+      ]
+    },
+    "answer": {
+      "ar": "أعلى استهلاك للمياه في {district} بواقع {value}.",
+      "en": "The highest water use is in {district}, at {value}."
+    },
+    "suggestion": {
+      "ar": "أي حي يستهلك أكثر كمية من المياه؟",
+      "en": "Which district uses the most water?"
+    },
+    "highlight": {
+      "kind": "chart",
+      "id": "water"
+    }
+  },
+  {
+    "id": "q-water-low",
+    "compute": "lowestWater",
+    "keywords": {
+      "ar": [
+        "اقل",
+        "ادنى",
+        "مياه",
+        "ماء"
+      ],
+      "en": [
+        "least",
+        "lowest",
+        "water"
+      ]
+    },
+    "answer": {
+      "ar": "أقل استهلاك للمياه في {district} بواقع {value}.",
+      "en": "The lowest water use is in {district}, at {value}."
+    },
+    "suggestion": {
+      "ar": "أي حي يستهلك أقل كمية من المياه؟",
+      "en": "Which district uses the least water?"
+    },
+    "highlight": {
+      "kind": "chart",
+      "id": "water"
+    }
+  },
+  {
+    "id": "q-energy-high",
+    "compute": "highestEnergy",
+    "keywords": {
+      "ar": [
+        "اكثر",
+        "اعلى",
+        "طاقه",
+        "كهرباء",
+        "استهلاك"
+      ],
+      "en": [
+        "most",
+        "highest",
+        "energy",
+        "electricity",
+        "power"
+      ]
+    },
+    "answer": {
+      "ar": "أعلى استهلاك للطاقة في {district} بواقع {value}.",
+      "en": "The highest energy use is in {district}, at {value}."
+    },
+    "suggestion": {
+      "ar": "أي حي يستهلك أكثر طاقة؟",
+      "en": "Which district uses the most energy?"
+    },
+    "highlight": {
+      "kind": "chart",
+      "id": "energy"
+    }
+  },
+  {
+    "id": "q-requests-period",
+    "compute": "requestsThisPeriod",
+    "keywords": {
+      "ar": [
+        "طلبات",
+        "عدد",
+        "الشهر",
+        "شهر"
+      ],
+      "en": [
+        "requests",
+        "month",
+        "logged",
+        "period"
+      ]
+    },
+    "answer": {
+      "ar": "سُجّل {value} ضمن {district} في الفترة المحددة.",
+      "en": "{value} were logged across {district} in the selected period."
+    },
+    "suggestion": {
+      "ar": "كم عدد الطلبات هذا الشهر؟",
+      "en": "How many requests this month?"
+    },
+    "highlight": {
+      "kind": "kpi",
+      "id": "requests"
+    }
+  },
+  {
+    "id": "q-requests-open",
+    "compute": "openRequests",
+    "keywords": {
+      "ar": [
+        "مفتوح",
+        "مفتوحه",
+        "معلق",
+        "يزال"
+      ],
+      "en": [
+        "open",
+        "pending",
+        "outstanding",
+        "unresolved",
+        "still"
+      ]
+    },
+    "answer": {
+      "ar": "هناك {value} ما تزال مفتوحة في {district}.",
+      "en": "There are {value} still open in {district}."
+    },
+    "suggestion": {
+      "ar": "كم طلبًا ما يزال مفتوحًا؟",
+      "en": "How many requests are still open?"
+    },
+    "highlight": {
+      "kind": "chart",
+      "id": "services"
+    }
+  },
+  {
+    "id": "q-air-today",
+    "compute": "airToday",
+    "keywords": {
+      "ar": [
+        "هواء",
+        "جوده",
+        "تلوث",
+        "اليوم"
+      ],
+      "en": [
+        "air",
+        "quality",
+        "pollution",
+        "today"
+      ]
+    },
+    "answer": {
+      "ar": "مؤشر جودة الهواء في {district} يبلغ {value}.",
+      "en": "Air quality in {district} is {value}."
+    },
+    "suggestion": {
+      "ar": "ما جودة الهواء اليوم؟",
+      "en": "What is the air quality today?"
+    },
+    "highlight": null
+  },
+  {
+    "id": "q-air-best",
+    "compute": "bestAir",
+    "keywords": {
+      "ar": [
+        "انظف",
+        "افضل",
+        "هواء",
+        "جوده"
+      ],
+      "en": [
+        "cleanest",
+        "best",
+        "air",
+        "quality"
+      ]
+    },
+    "answer": {
+      "ar": "أنظف هواء في {district} بمؤشر {value}.",
+      "en": "The cleanest air is in {district}, at {value}."
+    },
+    "suggestion": {
+      "ar": "أي حي يتمتع بأنظف هواء؟",
+      "en": "Which district has the cleanest air?"
+    },
+    "highlight": null
+  },
+  {
+    "id": "q-largest",
+    "compute": "largestDistrict",
+    "keywords": {
+      "ar": [
+        "اكبر",
+        "سكان",
+        "كثافه",
+        "حي"
+      ],
+      "en": [
+        "largest",
+        "biggest",
+        "population",
+        "district"
+      ]
+    },
+    "answer": {
+      "ar": "{district} هو الأكبر سكانيًا بـ {value}.",
+      "en": "{district} is the largest by population, with {value}."
+    },
+    "suggestion": {
+      "ar": "ما أكبر حي من حيث السكان؟",
+      "en": "Which is the largest district by population?"
+    },
+    "highlight": {
+      "kind": "kpi",
+      "id": "population"
+    }
+  },
+  {
+    "id": "q-total-pop",
+    "compute": "totalPopulation",
+    "keywords": {
+      "ar": [
+        "اجمالي",
+        "مجموع",
+        "سكان",
+        "عدد"
+      ],
+      "en": [
+        "total",
+        "overall",
+        "population",
+        "residents"
+      ]
+    },
+    "answer": {
+      "ar": "إجمالي سكان {district} يبلغ {value}.",
+      "en": "The total population of {district} is {value}."
+    },
+    "suggestion": {
+      "ar": "كم يبلغ إجمالي عدد السكان؟",
+      "en": "What is the total population?"
+    },
+    "highlight": {
+      "kind": "kpi",
+      "id": "population"
+    }
+  },
+  {
+    "id": "q-busiest-service",
+    "compute": "busiestService",
+    "keywords": {
+      "ar": [
+        "اكثر",
+        "خدمه",
+        "فئه",
+        "طلبا",
+        "شيوعا"
+      ],
+      "en": [
+        "most",
+        "common",
+        "service",
+        "category",
+        "popular"
+      ]
+    },
+    "answer": {
+      "ar": "أكثر فئة طلبًا هي {district} بواقع {value}.",
+      "en": "The busiest category is {district}, with {value}."
+    },
+    "suggestion": {
+      "ar": "ما أكثر الخدمات طلبًا؟",
+      "en": "What is the most requested service?"
+    },
+    "highlight": {
+      "kind": "chart",
+      "id": "services"
+    }
+  }
+]
